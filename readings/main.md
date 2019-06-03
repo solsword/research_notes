@@ -3,7 +3,7 @@
 ## Popular
 
 * [Video Games and the Colonial Power Fantasy](https://www.blackgirlgaming.com/blog/2018/3/26/video-games-and-the-colonial-power-fantasy-knkgd)
-* [Colonialism is Fun? Sid Meier’s Civilization and the Gamification of Imperialism](https://imperialglobalexeter.com/2018/07/03/colonialism-is-fun-sid-meiers-civilization-and-the-gamification-of-imperialism/)
+* [Colonialism is Fun? Sid Meier's Civilization and the Gamification of Imperialism](https://imperialglobalexeter.com/2018/07/03/colonialism-is-fun-sid-meiers-civilization-and-the-gamification-of-imperialism/)
 
 ## Personal
 
