@@ -6,4 +6,4 @@ Shared public repository for research notes, readings, and similar material.
 
 ### Readings:
 
-[readings/main.html](main.html)
+[readings/main.html](readings/main.html)
