@@ -1,2 +1,0 @@
-%.html: %.md
-	pandoc $< -o $@

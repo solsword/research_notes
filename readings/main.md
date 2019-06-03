@@ -1,5 +1,7 @@
 # Reading List
 
+[home](../README.html)
+
 ## Colonialism
 
 -> [colonialism.html](colonialism.html)
