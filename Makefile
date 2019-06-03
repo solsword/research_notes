@@ -2,7 +2,7 @@
 	pandoc $< -o $@
 
 MKD := $(shell find . -name "*.md")
-HTML := $(shell find . -name "*.md" | sed -e "s/\.md\>/.html/g")
+HTML := $(shell find . -name "*.md" | sed -e "s/\.md/.html/g")
 
 .PHONY: all
 
