@@ -9,3 +9,4 @@ Shared public repository for research notes, readings, and similar material.
 * [Readings](readings/main.html)
 * [VIM](vim/)
 * [Command Line](cmd/)
+* [GIT](git/)
