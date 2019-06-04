@@ -1,5 +1,17 @@
 Some text here -Peter
+
 Hannah May
+
+
+
+
+
+What happens when you call a function? It creates a fuction frame! -Christine
+
+
+
+
+
 Strong in the real way. -Ada
 
 Do you even git? -Mehek
