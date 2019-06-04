@@ -1,3 +1,11 @@
 Some text here -Peter
 
+
+
+
+What happens when you call a function? It creates a fuction frame! -Christine
+
+
+
+
 Strong in the real way. -Ada
