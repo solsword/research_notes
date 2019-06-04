@@ -4,6 +4,8 @@ Shared public repository for research notes, readings, and similar material.
 
 ## Summer 2019
 
-### Readings:
+### Pages
 
-[readings/main.html](readings/main.html)
+* [Readings](readings/main.html)
+* [VIM](vim/)
+* [Command Line](cmd/)
