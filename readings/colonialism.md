@@ -34,6 +34,22 @@
 
 * [The 'positive role' of colonisation: deconstructing a lie](http://en.lisapoyakama.org/the-positive-role-of-colonization-deconstructing-a-lie/)
 
+* [Myths of the Native](https://scholarblogs.emory.edu/postcolonialstudies/2014/06/21/myths-of-the-native/) - This web page is a great resource on postcolonial studies & has pages that summarize many important works and biographies of important authors.
+
+* [Pleasure of Exploration and Colonial Mastery in Civilization III Play the World](pdfs/pleasure_of_exploration.pdf) - 2003 article on colonialism in Civ III that covers a lot of the same ground we propose to explore in terms of analysis, but without such direct reference to mechanics or any technical component.
+
+* [Nintendo® and New World Travel Writing: A Dialogue](https://web.stanford.edu/class/history34q/readings/Cyberspace/FullerJenkins_Nintendo.html) - An essay in dialogue form cited by the article above that talks about Super Mario Bros. relationship to colonial mythos of princess rescue.
+
+* [DIGRA 'Postcolonialism' Keyword Search](http://www.digra.org/digital-library/keywords/postcolonialism/) - Search results in the Digital Games Research Association archives.
+
+* [Postcolonial Playgrounds: Games as postcolonial cultures](http://www.eludamos.org/index.php/eludamos/article/view/vol4no1-1/145) - Argues that Civ-style games don't exactly reproduce colonial mapping practices.
+
+* [Spatial Regimes of the Digital Playground: Cultural Functions of Spatial Practices in Computer Games](https://journals.sagepub.com/doi/abs/10.1177/1206331208319150) - Need to figure out access...
+* [Playing at Colonization: Interpreting Imaginary Landscapes in the Video Game Tropico](https://journals.sagepub.com/doi/abs/10.1177/0196859905285320) - Need to figure out access...
+
+* [Imaginary Russia. The Orientalisation of USSR in Command & Conquer: Red Alert series](http://www.digra.org/wp-content/uploads/digital-library/DIGRA_2018_paper_288.pdf)
+* [The SEGA and Microsoft History of India: The British Raj in Videogames](http://www.digra.org/wp-content/uploads/digital-library/MUKHERJEE_PWH3A_1AUG_LT1.pdf)
+
 ## Examples of Pro-Colonialist Pieces
 
 * Example of the pervasiveness of colonial mythology: what is this paper trying
