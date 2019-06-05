@@ -24,9 +24,18 @@
 
 * [The Colonialist Undertones of Metal Gear Solid V](https://www.pastemagazine.com/articles/2015/10/the-colonialist-undertones-of-metal-gear-solid-v.html)
 
+* [Colonial power in dishonored2](https://www.popmatters.com/colonial-power-in-dishonored-2-2495404980.html)
+* [What the world of dishonored can teach us about history] (https://medium.com/the-cube/what-the-world-of-dishonored-can-teach-us-about-history-b3881d802cb7)
 ## Personal
 
 * [The Colonial, Non-colonial and Decolonial in Video Games](https://www.gamasutra.com/blogs/NikhilMurthy/20190326/339369/The_Colonial_Noncolonial_and_Decolonial_in_Video_Games.php)
+
+* [Twitter Thread on Cultural Values of Mechanics](https://twitter.com/the_strix/status/1116065753206104064)
+
+### Native/Indigenous Perspectives
+
+* [Exploring Our Stories & Decolonizing Games](https://www.casskdesigns.com/design-blog/exploring-our-stories-decolonizing-games)
+* [Culture in Gameplay Loops](https://www.casskdesigns.com/design-blog/culture-in-gameplay-loops)
 
 ## Scholarly
 
@@ -76,4 +85,14 @@
 ## Alternative
 
 * Undertale
-0*Peters Unvierse$ * Peters World
+
+## Colonial
+
+* Civilization
+* Minecraft
+* Dungeons & Dragons
+
+## Mixed?
+
+* Halo
+* Skyrim
