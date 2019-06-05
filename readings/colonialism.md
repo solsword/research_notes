@@ -14,6 +14,7 @@
 * Potential issues when trying to create non-colonialist games - [The Pitfalls of Trying to Tell Stories Outside Your Own Experience](https://www.vice.com/en_us/article/9k9vw5/the-pitfalls-of-trying-to-tell-stories-outside-your-own-experience)
 
 ### Colonialism in Specific Games
+
 * ['Shadow of the Tomb Raider' Tries, but Fails, to Tackle Its Own Colonialism](https://www.vice.com/en_us/article/d3jgeq/shadow-of-the-tomb-raider-review-tries-but-fails-to-tackle-its-own-colonialism?utm_source=wptwitterus)
 
 * [Monster Hunter World Can't Envision That Maybe Hunters are the Baddies](https://www.pastemagazine.com/articles/2019/02/monster-hunter-world-cant-envision-that-maybe-hunt.html)
@@ -24,8 +25,8 @@
 
 * [The Colonialist Undertones of Metal Gear Solid V](https://www.pastemagazine.com/articles/2015/10/the-colonialist-undertones-of-metal-gear-solid-v.html)
 
-* [Colonial power in dishonored2](https://www.popmatters.com/colonial-power-in-dishonored-2-2495404980.html)
-* [What the world of dishonored can teach us about history] (https://medium.com/the-cube/what-the-world-of-dishonored-can-teach-us-about-history-b3881d802cb7)
+* [Colonial power in Dishonored2](https://www.popmatters.com/colonial-power-in-dishonored-2-2495404980.html)
+* [What the world of Dishonored can teach us about history] (https://medium.com/the-cube/what-the-world-of-dishonored-can-teach-us-about-history-b3881d802cb7)
 ## Personal
 
 * [The Colonial, Non-colonial and Decolonial in Video Games](https://www.gamasutra.com/blogs/NikhilMurthy/20190326/339369/The_Colonial_Noncolonial_and_Decolonial_in_Video_Games.php)
@@ -43,7 +44,29 @@
 
 * [The 'positive role' of colonisation: deconstructing a lie](http://en.lisapoyakama.org/the-positive-role-of-colonization-deconstructing-a-lie/)
 
+### Definitions & Summaries
+
 * [Myths of the Native](https://scholarblogs.emory.edu/postcolonialstudies/2014/06/21/myths-of-the-native/) - This web page is a great resource on postcolonial studies & has pages that summarize many important works and biographies of important authors.
+
+* [Colonialism Definition in the Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/colonialism/) - Another broad summary of a lot of literature on colonialism.
+
+* [The Culture-Historical Configurations of the American Peoples](https://www-jstor-org.ezproxy.wellesley.edu/stable/2740366?seq=1#metadata_info_tab_contents) - An early and somewhat flawed anthropological theory of colonization processes. This theory is essentially progressivist.
+
+* [A Definition of Colonialism](https://www.jstor.org/stable/2741072) - A flawed and very analytical definition that contrasts with the above; the included critical responses are useful.
+
+* [Anthropology and Colonialism](http://www.sjsu.edu/people/quincy.mccrary/courses/Anth115/s0/LewisAnthropologyandcolon.pdf) - A bit indirect, but a good article summarizing some of the ways that colonialism has manifested within anthropology as a discipline.
+
+* [Wikipedia's Article on Colonialism](https://en.wikipedia.org/wiki/Colonialism) - This isn't citeable as a scholarly source, but points to several, and is interesting as a publicly-produced definition, although 'Wikipedia editors' is a distinct group.
+
+* [Review of *Colonialism: A Theoretical Overview*](https://www.h-net.org/reviews/showrev.php?id=3045)
+
+### Books
+
+* [Colonialism: A Theoretical Overview](http://wellesley.summon.serialssolutions.com.ezproxy.wellesley.edu/#!/search/document?ho=t&l=en&q=colonialism:%20a%20theoretical%20overview&id=FETCHMERGED-proquest_abstracts_389346902) - By Jürgen Oserhammel; see review above.
+
+* [Orientalism](http://luna.wellesley.edu/record=b2506049~s1) - By Edward Said, has come up across many of the other articles here.
+
+### On Colonialism in Games
 
 * [Pleasure of Exploration and Colonial Mastery in Civilization III Play the World](pdfs/pleasure_of_exploration.pdf) - 2003 article on colonialism in Civ III that covers a lot of the same ground we propose to explore in terms of analysis, but without such direct reference to mechanics or any technical component.
 
