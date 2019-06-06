@@ -11,3 +11,4 @@ Shared public repository for research notes, readings, and similar material.
 * [Command Line](cmd/)
 * [GIT](git/)
 * [github](https://www.github.com)
+* [Personal](personal/) - Individual research notes.
