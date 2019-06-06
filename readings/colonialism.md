@@ -124,21 +124,29 @@
 ##  Hannah's list of Pro-Colonialist justifications found in various sources
 
 1. Why shouldn't the West colonize? From the time of the late Rennaissance to present-day, Europe has made extraordinary advances in fields of science, mathematics, literature, etc. If they can get to the Orient and they can take over with little resistance, why shouldn't they engange in this academic pursuit and advance the knowledge about mankind and the universe?
-*Found from page 8 of "Orientalism Now"). 
+
+Found from page 8 of "Orientalism Now"). 
 
 2. Countries all aorund the world have participated in colonization, not just European countries.
 3. The colonized countries had a say, the goal was not to plunder/pillage the colonized countries, but rather to enrich the states were being colonized.
-*Found in the article ["Colonialism : Myths and Realities" by Brandon Christensen"](https://notesonliberty.com/2012/03/11/colonialism-myths-and-realities/)
-*Also supported in the article ["The Truth About Western 'Colonialism'"](https://www.hoover.org/research/truth-about-western-colonialism)
 
-4.Colonialism reaffirms the primacy of human lives, universal values and shared responsibilites. 
+Found in the article ["Colonialism : Myths and Realities" by Brandon Christensen"](https://notesonliberty.com/2012/03/11/colonialism-myths-and-realities/)
+
+Also supported in the article ["The Truth About Western 'Colonialism'"](https://www.hoover.org/research/truth-about-western-colonialism)
+
+4. Colonialism reaffirms the primacy of human lives, universal values and shared responsibilites. 
 5. There is a mission to civilize, there is a moral obligation to improve the conditions for third world countries. 
 6. Colonialism is simply part of effective governance and international order. 
 7. Must prioritize - in a brutally patriarchal society, access to justice for women may be more important than the protection of indigenous land rights. 
 8. The level of colonial violence must be measured against violence that would have occured without colonialism and the level of violence relative to the population
 9. An objective costs/benefits analysis must be performed, colonialism is defensible in places where it resulted in significant social, economic, and political gains.
-*Found in the article ["The Case for Colonialism" by Bruce Gilley](https://www.nas.org/academic-questions/31/2/the_case_for_colonialism)
-*Fun fact: this article led to such discourse in the scholarly community that the editor of the journal it was published in received death threats, the article was promptly withdrawn. 
-*One critic wrote that the article was the "the academic equivalent of a Trump tweet, clickbait with footnotes."
-*In response, Sahar Khan wrote ["The Case Against 'The Case for Colonialism'](https://www.cato.org/publications/commentary/case-against-case-colonialism)
-*Kahn debunks the entire article, I highly reccomend checking it out.
+
+Found in the article ["The Case for Colonialism" by Bruce Gilley](https://www.nas.org/academic-questions/31/2/the_case_for_colonialism)
+
+Fun fact: this article led to such discourse in the scholarly community that the editor of the journal it was published in received death threats, the article was promptly withdrawn. 
+
+One critic wrote that the article was the "the academic equivalent of a Trump tweet, clickbait with footnotes."
+
+In response, Sahar Khan wrote ["The Case Against 'The Case for Colonialism'](https://www.cato.org/publications/commentary/case-against-case-colonialism)
+
+Kahn debunks the entire article, I highly reccomend checking it out.
