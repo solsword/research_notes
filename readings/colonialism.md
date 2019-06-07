@@ -1,6 +1,6 @@
 # Readings on Colonialism
 
-[readings main](main.html)
+[readings main](index.html)
 
 # Core Readings
 

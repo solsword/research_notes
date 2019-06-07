@@ -6,7 +6,7 @@ Shared public repository for research notes, readings, and similar material.
 
 ### Pages
 
-* [Readings](readings/main.html)
+* [Readings](readings/)
 * [VIM](vim/)
 * [Command Line](cmd/)
 * [GIT](git/)
