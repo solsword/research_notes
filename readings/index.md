@@ -19,3 +19,7 @@
 * [Choice Poetics](pdfs/choice-poetics.pdf)
 
 * [Identifying Regional Trends in Avatar Customization](pdfs/avatar-customization.pdf)
+
+## Notes
+
+-> [notes.html](notes.html)
