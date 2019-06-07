@@ -6,6 +6,10 @@
 
 -> [colonialism.html](colonialism.html)
 
+## Notes
+
+-> [notes.html](notes.html)
+
 ## Game Design
 
 * [Defining Operational Logics](pdfs/operational_logics.pdf)
@@ -19,7 +23,3 @@
 * [Choice Poetics](pdfs/choice-poetics.pdf)
 
 * [Identifying Regional Trends in Avatar Customization](pdfs/avatar-customization.pdf)
-
-## Notes
-
--> [notes.html](notes.html)
