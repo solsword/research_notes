@@ -122,31 +122,31 @@ https://www.jstor.org/stable/20057389?seq=1#metadata_info_tab_contents)
 
 #### Brainstorming some assumptions 
 
-	- Property:
-		* land not part of a country/owned through legal systems is up for grabs, and once you have grabbed it, you "own" it, which means that you are the only person who can occupy and use it.  You may use it in any way (that your country allows), even if this damages the environment around it, or simply eradicates life that was there before you (plant, animal, other, let alone humans).  All land eventually will become "property" and this is good.
-		* it is objectively better for land to be "productive."  Land that is not cultivated, who's resources are not being extracted, which does not have housing or factories, i.e. which does not create capital, is wasteful and bad.
+- Property:
+	* land not part of a country/owned through legal systems is up for grabs, and once you have grabbed it, you "own" it, which means that you are the only person who can occupy and use it.  You may use it in any way (that your country allows), even if this damages the environment around it, or simply eradicates life that was there before you (plant, animal, other, let alone humans).  All land eventually will become "property" and this is good.
+	* it is objectively better for land to be "productive."  Land that is not cultivated, who's resources are not being extracted, which does not have housing or factories, i.e. which does not create capital, is wasteful and bad.
 
-	- Progress:
-		* technological progress and increase in available material goods improve human life and are objectively good.  A person who could theoretically buy plastic toys, premade food, a tv, etc. is better off than someone who does not live in an area or economy with access to these things; even if the former has longer work hours, no stability in jobs, housing, health care, they have a better life due to proximity to material goods
+- Progress:
+	* technological progress and increase in available material goods improve human life and are objectively good.  A person who could theoretically buy plastic toys, premade food, a tv, etc. is better off than someone who does not live in an area or economy with access to these things; even if the former has longer work hours, no stability in jobs, housing, health care, they have a better life due to proximity to material goods
 
-	- Paternalism:
-		* although property is the most essential thing, people who are "less civilized" are not using their land effectively, therefore it is okay and even good to take that land and make it productive
-		* "more civilized" people have a duty to "help" the rest of the world by bringing technology, government, property, religion, etc.
-		* "less civilized" people are like children and require harsh rules because they wouldn't know what to do with freedom
+- Paternalism:
+	* although property is the most essential thing, people who are "less civilized" are not using their land effectively, therefore it is okay and even good to take that land and make it productive
+	* "more civilized" people have a duty to "help" the rest of the world by bringing technology, government, property, religion, etc.
+	* "less civilized" people are like children and require harsh rules because they wouldn't know what to do with freedom
 
 #### Notes on race and colonialism paper
 
-	- colonialism occurs (in part) simultaneously with the enlightenment, which posits that all men have inherent, universal rights.  How then does one justify the violence, conquest, and subjugation of colonialism?  Mahmud claims that race is constructed to bridge this gap
+- colonialism occurs (in part) simultaneously with the enlightenment, which posits that all men have inherent, universal rights.  How then does one justify the violence, conquest, and subjugation of colonialism?  Mahmud claims that race is constructed to bridge this gap
 
-	- "I posit that it was to reconcile colonial domination with the ideals of freedom and equality, that a modem discourse of racial difference and hierarchy gained hegemony, whereby capacity and eligibility to freedom and progress were deemed biologically 
+- "I posit that it was to reconcile colonial domination with the ideals of freedom and equality, that a modem discourse of racial difference and hierarchy gained hegemony, whereby capacity and eligibility to freedom and progress were deemed biologically 
 determined, and colonialism was legitimated as the natural subordination of lesser races to higher ones."
 
-	- construct of "History": narrativizing the past on a national level,  assuming a linear progress, assuming that the current state of things in civilized nations is the high point of humanity, and that all of humanity will eventually get to the point civilized nations are at now, becoming "civilized" themselves
+- construct of "History": narrativizing the past on a national level,  assuming a linear progress, assuming that the current state of things in civilized nations is the high point of humanity, and that all of humanity will eventually get to the point civilized nations are at now, becoming "civilized" themselves
 
-	- social darwinism and "History" combine to form a hierarchy of races, which is not only ideological justification for colonialism, but is also codified
+- social darwinism and "History" combine to form a hierarchy of races, which is not only ideological justification for colonialism, but is also codified
 
-	-"A typology of savagery, barbarianism and civilization as a hierarchy of the historical stages of man was posited, bringing geography and History together in a generalized scheme of European superiority that identified civilization with race" 
+- "A typology of savagery, barbarianism and civilization as a hierarchy of the historical stages of man was posited, bringing geography and History together in a generalized scheme of European superiority that identified civilization with race" 
 
-	- "The modern grammar of racial difference, inaugurated by History and supplemented by liberal exclusions, had four inter-linked premises:(i) that there is an essential difference between Europeans and other races in the world; (ii) that there is a racial hierarchy with the European at the top, followed by Asians, African and aboriginals, in a descending order; (iii) that Europe, being the subject of History, had the right, nay the duty, to govern other races, to impregnate them with reason, progress and the rule of law; and (iv) that the salvation of lesser races rested in subjugation by Europe, to aspire to Europe's present as their future, this being the only path to enter History
+- "The modern grammar of racial difference, inaugurated by History and supplemented by liberal exclusions, had four inter-linked premises:(i) that there is an essential difference between Europeans and other races in the world; (ii) that there is a racial hierarchy with the European at the top, followed by Asians, African and aboriginals, in a descending order; (iii) that Europe, being the subject of History, had the right, nay the duty, to govern other races, to impregnate them with reason, progress and the rule of law; and (iv) that the salvation of lesser races rested in subjugation by Europe, to aspire to Europe's present as their future, this being the only path to enter History
 
-	- "colonial rule was premised upon the exclusion of the colonized from humanity as essential to their exclusion from institutions of political sovereignty" 
+- "colonial rule was premised upon the exclusion of the colonized from humanity as essential to their exclusion from institutions of political sovereignty" 
