@@ -40,7 +40,10 @@
 #### Excuses for Colonialism
 
 - Denial--It didn't happen.
-- Distraction--Discussing colonization is too dangerous/harmful.
+    * Invisibilization--The colonized did not exist, or did not live there.
+- Distraction--Let's talk about something else.
+    * Avoidance--Discussing colonization is too dangerous/harmful.
+    * Derailment--Something else is also a problem.
 - Delegitimization--Only the colonizer's narrative is valid.
 - Diffusion--No specific person can be blamed.
 - Deflection--Some other group is the real culprit.
@@ -48,16 +51,21 @@
     * Projection--The enemies of the colonizers are actually to blame.
     * Fragmentation--The blame is shared by several groups.
 - Historicization--It happened long ago, and is no longer relevant.
-- Mythologization--Colonization is inevitable.
+    * Erasure--It no longer affects anyone.
+- Naturalization--Colonization is natural or inevitable.
     * Victim-blaming--The colonized brought colonization upon themselves.
+    * Normalization--Everyone at that time considered it normal.
 - Condemnation--The colonized deserved it.
     * Vilification--The colonized were worse than the colonizers.
     * Conflation--Both sides were colonizers.
-    * Counter-Accusation--Both sides were to blame for the events.
+    * Counter-Accusation--Neither side is blameless.
+- Disaggregation--Colonization was not systemic or intentional
 - Justification--It was not actually bad.
     * Inversion--It was good actually.
     * Minimization--It wasn't that bad.
     * Valorization--The benefits outweigh the harm.
+    * Legitimization--Everything was consensual.
+    * Compensation--It was bad, but the harm has been more than made up for.
 
 Specific excuses:
 
@@ -66,6 +74,58 @@ Specific excuses:
   counter-accusation, which also usually includes valorization/inversion and/or
   victim-blaming.
 - TODO: More here
+
+Excuses from [Top 10 Settler Excuses for Colonialism](https://mediaindigena.com/top-10-settler-excuses-for-colonialism/):
+
+1. I didn't steal anything.
+    * Diffusion and expiration
+1. You have to move forward.
+    * Historicization
+1. Aboriginals must share responsibility for where they are today.
+    * Counter-Accusation w/ historicization
+1. I was born here.
+    * Expiration
+1. We all have equal rights.
+    * Derailment
+1. Look what Aboriginals did with ATSIC.
+    * Derailment, historicization, and counter-accusation.
+1. Government spends a billion dollars a year on Aboriginals.
+    * Compensation
+1. Aboriginals don’t work.
+    * Compensation
+1. We gave you the right to vote.
+    * Compensation
+1. We must all move forward together.
+    * Avoidance, historicization
+
+And more from the comments:
+
+1. Aboriginal people should be glad for the comforts of modern life
+    * Valorization
+1. Indigenous people were dying out anyway so settlement was inconsequential
+    * Invisibilization
+1. Treaties were consensual
+    * Legitimization
+1. Aboriginal people were so small in number that reserve sizes were appropriate
+    * Invisibilization, erasure, and minimization
+1. Western settlement was benign and inevitable
+    * Naturalization & minimization
+1. Canadians were nicer than Americans therefore morally superior in their treatment of Aboriginal people
+    * Vilification
+1. Nobody knew any better (documentation in legislative and news sources shows that there was widespread awareness of treatment)
+    * Normalization and delegitimization
+1. Discrimination was not racially motivated
+    * Disaggregation
+1. History has no consequence
+    * Historicization & erasure
+1. Things were carried out in according to legal process
+    * Legitimization
+1. Politicians had the best intentions and nothing to gain during western
+   expansion
+    * Minimization, delegitimization
+1. Aboriginals are dying out now, so it would be redundant to rehash these
+   issues
+    * Erasure & derailment
 
 ### Hannah's Notes
 
