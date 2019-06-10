@@ -103,9 +103,13 @@
 * [Imaginary Russia. The Orientalisation of USSR in Command & Conquer: Red Alert series](http://www.digra.org/wp-content/uploads/digital-library/DIGRA_2018_paper_288.pdf)
 * [The SEGA and Microsoft History of India: The British Raj in Videogames](http://www.digra.org/wp-content/uploads/digital-library/MUKHERJEE_PWH3A_1AUG_LT1.pdf)
 
+* [Gardening Games](pdfs/gardening-games.pdf) - Games studies academic article that talks about colonialism, Minecraft, and design options.
+
 ## Examples of Pro-Colonialist Pieces
 
 * Another example of false equivalencies in action: [The Truth About Western "Colonialism"](https://www.hoover.org/research/truth-about-western-colonialism)
+
+* Quite prominent pro-colonialist academic article: [The Case for Colonialism](https://www.nas.org/academic-questions/31/2/the_case_for_colonialism)
 
 
 # Games
