@@ -1,5 +1,5 @@
 %.html: %.md
-	pandoc $< -o $@
+	pandoc -s $< -o $@
 
 MKD := $(shell find . -name "*.md")
 HTML := $(shell find . -name "*.md" | sed -e "s/\.md/.html/g")

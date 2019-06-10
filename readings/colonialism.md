@@ -109,7 +109,17 @@
 * [Imaginary Russia. The Orientalisation of USSR in Command & Conquer: Red Alert series](http://www.digra.org/wp-content/uploads/digital-library/DIGRA_2018_paper_288.pdf)
 * [The SEGA and Microsoft History of India: The British Raj in Videogames](http://www.digra.org/wp-content/uploads/digital-library/MUKHERJEE_PWH3A_1AUG_LT1.pdf)
 
+### Minecraft-specific
+
 * [Gardening Games](pdfs/gardening-games.pdf) - Games studies academic article that talks about colonialism, Minecraft, and design options.
+
+* [Minecraft is an Allegory for Colonialism](https://medium.com/@ikechukwuanude/minecraft-is-an-allegory-for-colonialism-92f9a11265f9) - Blog post on Minecraft and colonialism.
+
+* [Colonialism & the Observer Principle in Minecraft](https://foxandbee.wordpress.com/2014/02/20/colonialism-the-observer-principle-in-minecraft/) - Another (very short) blog post on Minecraft and colonialism, with a focus on villagers.
+
+* [Minecraft Education Module on British Colonisation](https://education.minecraft.net/lessons/british-colonisation/) - Kinda... pro-colonial actually :(
+
+* [Minecraft Tutorial on 'Colonizing'](https://minecraft.gamepedia.com/Tutorials/Colonizing)
 
 ## Examples of Pro-Colonialist Pieces
 
