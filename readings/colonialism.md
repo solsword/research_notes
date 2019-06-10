@@ -77,6 +77,12 @@
 
 * [The Colonial, Non-colonial and Decolonial in Video Games](https://www.gamasutra.com/blogs/NikhilMurthy/20190326/339369/The_Colonial_Noncolonial_and_Decolonial_in_Video_Games.php)
 
+* Slide on colonialism in games and possible counters at slide 17 of [this](https://docs.google.com/presentation/d/10VBarblvpIfEEua-11f2ryO7h6-y8lKcCBcGTcas23A/edit#slide=id.g25fba053eb_0_6) powerpoint
+
+* Implications of mechanics of constant progression: [Level 99 Capitalist](https://normallyrascal.wordpress.com/2014/06/04/level-99-capitalist/)
+
+
+
 ## Scholarly
 
 ### Definitions & Summaries
