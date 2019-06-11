@@ -2,9 +2,8 @@
 
 [Personal Pages](../)
 
-## Notess
+## Notes
 
--> [Orientalism Now notes](orientalism.html)
-)
+-> [Orientalism Now notes](orientalism.html))
 
 
