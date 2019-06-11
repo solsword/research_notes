@@ -2,8 +2,8 @@
 
 [home](../README.html)
 
-## Orientalism Now 
+## Personal Notes 
 
--> [orientalism.html](orientalism.html)
+-> [Hannah's notesl](hannah_may)
 
 
