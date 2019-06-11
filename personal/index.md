@@ -2,6 +2,8 @@
 
 [home](../README.html)
 
-## Links
+## Orientalism Now 
 
-* (add a link to your personal research notes here)
+-> [orientalism.html](orientalism.html)
+
+
