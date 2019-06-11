@@ -167,15 +167,14 @@ Kahn debunks the entire article, I highly reccomend checking it out.
 1. The countries that embraced their colonial inheritance, by and large, did better than those that spurned it.
 2. The case for Western colonialism is about rethinking the past as well as improving the future. It involves reaffirming the primacy of human lives, universal values, and shared responsibilities – the civilising mission without scare quotes – that led to improvements in living conditions for most Third World peoples during most episodes of Western colonialism.
 
-[“Colonialism” published in Stanford Encyclopedia of Philosophy] (https://plato.stanford.edu/entries/colonialism/)
+    [“Colonialism” published in Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/colonialism/)
 3. Whereas the Crusades were initially framed as defensive wars to reclaim Christian lands that had been conquered by non-Christians, the resulting theoretical innovations played an important role in subsequent attempts to justify the conquest of the Americas.
 4. The idea that civilization is the culmination of a process of historical development, however, proved useful in justifying imperialism.
 5. According to the stadial theory of historical development, all societies naturally moved from hunting, to herding, to farming, to commerce, a developmental process that simultaneously tracked a cultural arc from “savagery,” through “barbarism,” to “civilization.” “Civilization” was not just a marker of material improvement, but also a normative judgment about the moral progress of society. (Kohn and O’Neill 2006)
 6. Given the tension between the abstract universalism of natural law and the actual cultural practices of indigenous peoples, it was easy to interpret native difference as evidence of the violation of natural law. This in turn became a justification for exploitation.
-[“The Changing Moral Justification of Empire: From the Right to Colonise to the Obligation to Civilise” by Camilla Boisen] (https://www.tandfonline.com/doi/abs/10.1080/01916599.2012.716603?journalCode=rhei20)
+[“The Changing Moral Justification of Empire: From the Right to Colonise to the Obligation to Civilise” by Camilla Boisen](https://www.tandfonline.com/doi/abs/10.1080/01916599.2012.716603?journalCode=rhei20)
 	can’t access but looks good :(
-[“The Formation of Natural Law to Justify Colonialism, 1539-1689” by Richard Waswo] (
-https://www.jstor.org/stable/20057389?seq=1#metadata_info_tab_contents)
+[“The Formation of Natural Law to Justify Colonialism, 1539-1689” by Richard Waswo](https://www.jstor.org/stable/20057389?seq=1#metadata_info_tab_contents)
 7. As the nations of Westerw Europe began to colonize the Americas, they created a discourse to justify the activity developed from legal codes of the same classical past that provided the fiction model for the activity...It also defined what constitutes civilization itself (settled agriculture and cities: tilting the earth, building walls and towers on it) as opposed to its opposite, savagery (dispersed domadism: hunting and gathering in forests).
 
 ### Ohana's Notes:
