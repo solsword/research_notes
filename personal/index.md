@@ -4,6 +4,6 @@
 
 ## Personal Notes 
 
--> [Hannah's notesl](hannah_may)
-
+- [Hannah's notes](hannah_may)
+- [Peter's Notes](pmwh)
 
