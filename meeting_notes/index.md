@@ -4,4 +4,5 @@
 
 ## Meetings
 
-- [Excuses for Colonialism](excuses.md)
+- [Excuses for Colonialism](excuses.html)
+- [Orientalism Section 1](orientalism-section1.html)
