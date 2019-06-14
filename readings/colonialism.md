@@ -32,6 +32,8 @@
     * *The State of Native America: genocide, colonization, and resistance* - A
       collection of essays mostly by Native Americans, this seems like a good
       place to start. It's in the library at: E93.S77 1992
+          - Page 241 "Native North America: The Political Economy of
+            Radioactive Colonialism" is one good chapter to read from this.
     * *Fantasies of the Master Race* - Another essay collection but this time
       about portrayals of Native Americans in literature and film, so relevant
       to our work in some way. It's at: E98.E85 C48 1992
