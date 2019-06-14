@@ -66,11 +66,12 @@
 - Two principle elements of East/West relationships since mid-18th century 
     * Knowledge, which was reinforced by an interest in the unknown with developing sciences
     * Strength, on political, cultural and religious grounds the West is strong and the East is weak
-- Categorical polarization
+- Categorical polarization (54/60)
     * The rational, virtuous, mature and normal European project an idea of the East onto the East which is what actually creates the concept of the Oriental
     * By placing the East as a place for judgement, scrutiny, study and governing, the East is put into this box labeled "Oriental"
     * The projected ideals are therefore what the West comes to know the East by
     * These categories ultimately create more polarization between the two
+    * Idea that everyone is creating metaphors to things that you know and so therefore it is okay
 - Binary Opposition
     * Introduced by Kissinger
     * The World is developed by having ability to record/classify data, accuracy, post-Newtonian view of the world
@@ -78,4 +79,39 @@
     * Post- Newtonian is the idea that the world is external to the observer (aka the world is real)
     * Pre- Newtonian is the idea that the world is internal to the observer 
 
+## Discussion Notes
 
+- Peter
+    * Orientalism is not a myth, it is not just ideas, it is also a power structure
+    * Use scholars to figure out how they are going to run colonies
+    * It is intricate and not just an abstract
+    * Must be able to move past the surface level description of people/ cultures
+- Christine 
+    * Take existing things (Euro's do) and perscribe meanings to them
+- Ohannah
+    * Original thought that it referred to describing Asia and Japan
+    * The scope of orientalism is wider than thought
+    * If the knowledge is not based in fact, what kind of knowledge leads to what kind of power? Ideaological power? Justification? 
+    * Willingness of people to participate is based on that knowledge? 
+- Imaginitive Geography
+    * Emphasizes the ridiculousness of the word "orient"
+    * Is overgeneralization a necessary part of what makes it bad? No not necessarily, it can be specific but still offensive
+    * Overgeneralization appears in other projects - ex how people characterize Native Americans
+    * Is the overgeneralization separable from the mythology? 
+    * It certaintly makes it easier to say that there is an "other", it perpetuates the idea of teams 
+    * It also dehumanizes the people on the other side, inability to see the truth because you are so focused on the idea of the other "team"
+- The orient is constructed through texts, ideas 
+- Orientalists make up lie and lie is cited and cited and cited until it ends up becoming true
+- It is inherently flawed to try to describe a people, a culture, language 
+    * Direct experience is always better, implication is that we should defer to those who have direct experience
+    * Taught that the text is an authority and to always trust that text, if you go and observe something that is different from that text then what you are observing is unnatural 
+- PAGE 108
+    * People like us think of selves as making sense that we control most of the world, adding class anaylsis is more interesting
+    * The people who are reaping benefits of colonialism is the people who are LEADERS, tiny minority within a minority of Westerners
+    * The idea of the "us" vs "them" gets expanded so that the poorer people want to go and fight for their country
+    * Racist us vs them functions to justify the colonization and pacify the people at home who would be in solidarity with people abroad 
+- Define knowledge as beliefs that are held 
+- Video games literalize this : all other people are just code and geometry and so because it is interactive, you are the only person that is a real person
+- Games are an extension of orientalism
+- Read section 2 in the next two weeks 
+- Design level interventions of brainstorming and sketching, looking into the specifics of the mechanics, what games other than minecraft have the same operational logics 
