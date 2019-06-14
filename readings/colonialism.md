@@ -24,6 +24,23 @@
 * [Exploring Our Stories & Decolonizing Games](https://www.casskdesigns.com/design-blog/exploring-our-stories-decolonizing-games)
 * [Culture in Gameplay Loops](https://www.casskdesigns.com/design-blog/culture-in-gameplay-loops)
 
+* [Teaching American Indian History: A Native American Voice](https://www.historians.org/publications-and-directories/perspectives-on-history/september-1994/teaching-american-indian-history-a-native-american-voice) - An article on how to build a syllabus for a Native American History course with a lot of great citations. It's an interesting read in itself as well, and it echoes a lot of the points that Said makes in *Orientalism*.
+    * *Concerning the League : the Iroquois League tradition as dictated in
+      Onondaga by John Arthur Gibson* - A translation of the founding document
+      of the Iroquois Confederacy, which the Clapp library has a copy of at:
+      PM2076.C66 1992
+    * *The State of Native America: genocide, colonization, and resistance* - A
+      collection of essays mostly by Native Americans, this seems like a good
+      place to start. It's in the library at: E93.S77 1992
+    * *Fantasies of the Master Race* - Another essay collection but this time
+      about portrayals of Native Americans in literature and film, so relevant
+      to our work in some way. It's at: E98.E85 C48 1992
+    * *America in 1492: the world of the Indian peoples before the arrival of
+      Columbus* - Another edited volume on pre-contact history, but has one
+      section on colonization and apparently another on Native knowledge
+      systems. It's at: E58.A526 1992
+
+
 ## Scholarly
 
 * [Colonialism and Modern Constructions of Race: A Preliminary Inquiry](https://digitalcommons.law.seattleu.edu/cgi/viewcontent.cgi?article=1501&context=faculty)
