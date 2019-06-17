@@ -2,8 +2,10 @@
 
 [home](../README.html)
 
-## Personal Notes 
+## Orientalism Now 
 
-- [Hannah's notes](hannah_may)
-- [Peter's Notes](pmwh)
+-> [orientalism.html](orientalism.html)
 
+## The State of Native America 
+
+-> [colonization.html](colonization.html)
