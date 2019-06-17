@@ -1,9 +1,10 @@
+
 # Personal
 
 [Personal Pages](../)
 
-## Notes
+## Links
 
--> [Orientalism Now notes](orientalism.html)
-
+-> [Notes on Orientalism](orientalism.html)
+-> [Notes on Colonization in America](colonization.html)
 
