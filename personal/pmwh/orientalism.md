@@ -1,4 +1,4 @@
-# Noes on Edward Said's **Orientalism**
+# Notes on Edward Said's *Orientalism*
 
 [Peter's notes](index.html)
 
