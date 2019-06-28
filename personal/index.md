@@ -1,9 +1,9 @@
 # Personal
 
 [home](../README.html)
+ 
 
-## Personal Notes 
+-> [Hannah's Notes](hannah_may/)
+ 
 
-- [Hannah's notes](hannah_may)
-- [Peter's Notes](pmwh)
-
+-> [Peter's Notes](pmwh/)
