@@ -205,7 +205,132 @@
 
 ### Ch. 2: Orientalist Structures and Restructures
 
-...
+#### I. Redrawn Frontiers, Redefined Issues, Secularized Religion
+
+- p. 115 "regenerating" Europe with Asia as desperate cultural looting by a
+  poisoned culture.
+- p. 116 explicit criticism of science via Flaubert
+- p. 119 Academic Orientlism curtails (but in part draws from) artistic
+  Orientalism.
+- p. 119 the role of classification as an impulse
+- p. 120 a shift from religious them/us to racial/national them/us, but with
+  religion hanging on as a distinction
+- p. 122 anyone who seeks to become an expert on other humans risks this kind
+  of speaking-for.
+- p. 123 a "discipline of accumulation"
+
+#### II. Silvestre de Sacy and Ernest Renan: Rational Anthropology and Philological Laboratory
+
+- p. 124 academics as a necessary part of imperialism; complicity
+- p. 124 the evangelist tendency of Orientalism
+- p. 125 "chrestomathy"
+- p. 125 the classroom in contrast to hands-on direct learning, and the dangers
+  of focusing on simplifying examples
+- p. 126 preserving & making knowledge accessible (simplified by Napoleon's
+  invasion of Egypt)
+- p. 127 who are the actual recipients of knowledge?
+- p. 127 "pioneers" in academic fields are like pioneers in real life: we
+  glorify them, but don't notice what they're destroying
+- p. 128 defamiliarity to the general student audience as an excuse to enclose material as academically sophisticated
+- p. 128 obscurity necessitates/justifies curation and abbreviation
+- p. 129 academic legacies
+- p. 132 natural sciences as a source of pressure for the humanities:
+  utilitarianism in university administration
+- p. 133 scientific racism and the idea of a "natural law"
+- p. 134 what does it mean to be a "liberal?" What does it mean that Wellesley
+  College is a "Liberal Arts College?"
+- p. 134 scholarly pursuits as a substitute for spiritual ones.
+- p. 135 the valorization of Christianity as a backdrop to Orientalism
+- p. 140 giving voice to the "voiceless" speaks over them.
+- p. 142 deviance/exoticness as a necessary property of collected/exhibited
+  objects.
+- p. 143 how much of modern linguistics/science is still ultimately grounded in
+  some of these ideas? How do you separate the useful from the biased? Can you?
+- p. 143 Lacunae create a malleable history that can be arranged to suit the
+  scholar's hypothesis a la Opera Omnia.
+- p. 145 is nature fundamentally intelligible? Is culture? To whom?
+- p. 145 (re)construction as a form of imperial domination; in Minecraft
+  construction is literally a form of territorial domination.
+- p. 146 the true power & influence of the historian
+- p. 148 Said's relation to words as a scholar of literature often involves
+  defining "senses" through reference to particular (and presumed widely
+  accessible) works, like Dickens' "Our Mutual Friend," which I for one have
+  never read.
+- p. 148 Renan sees nationalism as more important than e.g., empiricism, for
+  all that he loves science. What do the scientists of today see as more
+  important than empiricism?
+- p. 148 the important contradiction between disinterest/objectivity and
+  domination/power/economic *interest*.
+
+#### III. Oriental Residence and Scholarship: The Requirements of Lexicography and Imagination
+
+- p. 149 Note how Said does not extensively introduce Renan or Sacy. I still
+  don't really have the greatest sense of what their works actually were like,
+  because I'm not coming to this book as an expert in Orientalism or its
+  history.
+- p. 149 Anti-semitism & science
+- p. 149 Note how science/philosophy uses scientific/philosophic "progress" as
+  its yardstick for cultural/racial "achievement."
+- p. 150 This business of linguistic roots and "race, mind, character, and
+  temperment" is deeply un-empirical, and it is easy today to denounce it as
+  unscientific, which it is. Yet it is essentially scientific because it is
+  part of the continuous scholarly tradition and social institution of Science.
+- p. 150 inequality invites study which enshrines inequality. That's actually
+  just like many modern diversity programs.
+- p. 151 the simultaneous attraction and repulsion of earlier fictitious
+  depictions inspires scholars who exhibit the same tendencies.
+- p. 152 the invisibility to the colonizer of the knowledge of the colonized.
+- p. 153 the reduced model of the Orient constructed to support intellectual
+  dominance also becomes useful for national dominance & imperialism.
+- p. 153 the compatibility of the meliorist/progressivist strand in Marxism
+  with colonialism.
+- p. 154 the Orientalist grapples only with masses or heroes/villains, never
+  with individuals. Aggregation and exemplification together are enough to
+  allow complete distortion.
+- p. 155 the outright denial or at least invisibilization of suffering is a
+  standard colonialist excuse.
+- p. 155 the function of Orientalism on full display as it unmakes Marx'
+  sympathy.
+- p. 155 how does what we choose to read constrain our engagement with our own
+  topics?
+- p. 156 the sociological processes that undergird science as an institution.
+- p. 158 all representations are reconstructions that alter the original.
+- p. 159 erasing the author (as we do in science so thoroughly) serves at least
+  to minimize the perspective and biases of the author.
+- p. 159 the requirement that one do something new and also produce correct
+  knowledge serves to manufacture authority. Same as in science.
+- p. 160 "objectivity" as opposed to authenticity/sympathy
+- p. 160 once again, who is the beneficiary of produced "knowledge?" Who is it
+  available to?
+- p. 162 overwhelming detail gives an air of representativeness.
+- p. 163 the contradiction between "objectivity" and "familiarity."
+- p. 166 the interdependency between conquest and scholarly study: museums need
+  artifacts, and conquistadores need interpreters and objectives.
+- p. 172 The dual contradictory excuse: the Crusades were not aggression, *and*
+  they were justified aggression.
+- p. 172 the crucial role of the concept of "liberty" in Western justifications
+  for colonialism.
+- p. 175 um... what? Inscribing your name on a Pyramid, and not even doing it
+  yourself?
+- p. 176 "a lively sense of an Oriental's human or even social reality—as a
+  contemporary inhabitant of the modern world" as a bar to pass.
+- p. 179 examples of colonialist justifications.
+- p. 180 sexism as part of colonialism.
+- p. 190 these tropes are alive and well today.
+- p. 190 various kinds of "surplus" population, with the Orient as a
+  destination or depository.
+- p. 191 more detailed description of the academic institution of Orientalism.
+- p. 191 minority interests as proxies for European schemes, and the Kurds and
+  Syrian Christians of today.
+- p. 192 works that are too realistic or reflect real circumstances aren't
+  appealing to European audiences.
+- p. 192 this is a core media studies approach: juxtaposition of a body of work
+  using brief descriptions.
+- p. 193 Orientalists travelling in the Orient who are disinterested in its
+  reality (and who do not speak any Oriental language).
+- p. 196 Mastery over and understanding of systems permits a more detailed (but
+  no less imperialist) perspective on the Orient, without risking empathy.
+
 
 ## Big points
 
@@ -243,3 +368,30 @@
     * Caveat: Even going to a place and meeting the people there may not
       produce knowledge of them if one arrives with preconceived notions and
       does not respect those people.
+
+- ~p. 147 There's something that Said has not mentioned yet, which is any
+  notion of whether scholars *in* the Orient were constructing their own
+  histories, and whether those might be more authentic. Given the
+  ridiculousness of the European histories of the Orient being constructed in
+  Europe, it might be interesting to contrast them against e.g., Arabic
+  histories of the Arabian peninsula or of Islam.
+
+- ~ p. 150 Looking at the roots of modern science (e.g. linguistics) reveals
+  much we might disagree with. But those positions can be filtered through
+  sequential citations directly into our own work.
+    * p. 151 more examples of this in history.
+
+- p. 150 Inequality invites study which enshrines inequality. This is often
+  evident today in the study of modern racism, where scientists looking to
+  "prove" racism don't overtly essentialize the distinctions the find, but
+  neither do they always grapple with the mechanisms of white supremacy which
+  perpetuate those differences.
+
+- ~ p. 153 How is Minecraft potentially useful for imperialism/colonialism
+  today?
+
+- ~ p. 154 The dangers of treating humans either as homogeneous cultural units
+  or as mythologized exemplars.
+
+- ~ p. 160 Who is the beneficiary of the "knowledge" that is produced by
+  academia? Who does or does not merit access to it?
