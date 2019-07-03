@@ -5,4 +5,4 @@
 
 ## Links
 
--> [Minecraft Notes] (minecraft.html)
+-> [Minecraft Notes](minecraft.html)
