@@ -14,3 +14,8 @@
 - Killed an villager who was shooting at me
 - Explored
 - Killed and ate some animals
+
+##June 3rd first 30 minutes 
+- Fished, killed two fish
+- Looked for coal, didn't find any, but dug really deep
+- Built a damn because in my mining I accidentally messed up the river irrigation system and created a waterfall
