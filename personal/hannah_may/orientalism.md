@@ -115,3 +115,22 @@
 - Games are an extension of orientalism
 - Read section 2 in the next two weeks 
 - Design level interventions of brainstorming and sketching, looking into the specifics of the mechanics, what games other than minecraft have the same operational logics 
+
+### Section 2
+
+- "One cannot feel bitterness towards one's homeland. Better to be mistaken along with the nation than to be too right with those who tell it hard truths" (148)
+- Scholars are trying to establish themselves as disinterested and objective 
+    * In order to support the power/domination of the empire, you use objectivity/disinterest
+    * I am really objective, the natives are not and I am telling you what is right and what is right is that we need to govern the natives
+    * Scientists cannot actually act with objectivity, have bias because not actually living and dont understand it 
+    * But scientists claim that they need some distance to study it objectively because otherwise they would be influenced by the culture
+    * Idea that humanities and scientific studies are completely separate 
+    * Science is seen as the only legitimate way of engaging with the world 
+    * When you write (program) the way the world works, you imply that there are rules that run the world
+    * "The growth of knowledge, particularly specialized knowledge, is a very slow process. Far from being merely additive or cumulative, the growth of knowledge is a processo of selective accumulation, displacement, deletion, rearrangement and insistence." (176)
+    * Utility of orientalism, it was useful to have what was made from orientalism 
+### Plans
+- Identifying mechanics
+    * Brainstorm a list of mechanics in minecraft
+    * Mechanics, dynamics, MDA framework
+
