@@ -66,6 +66,7 @@
     * Cooking/smelting
     * Crafting blocks
     * Crafting items
+    * Dyeing
 - Difficulty settings and modes
     * Creative
     * Survival
