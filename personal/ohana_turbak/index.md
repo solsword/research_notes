@@ -1,6 +1,6 @@
 #Personal
 
-[Personal Pages(../)
+[Personal Pages(../)]
 
 ## Links
 
