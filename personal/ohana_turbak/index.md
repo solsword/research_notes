@@ -4,4 +4,4 @@
 
 ## Links
 
--> [Voxel Renderer with basic wave animation](test4-DDA-texture-input.html)
+-> [Voxel Renderer with basic wave animation](voxel-waves.html)
