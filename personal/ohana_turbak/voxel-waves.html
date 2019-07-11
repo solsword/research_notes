@@ -158,9 +158,9 @@
                 vec3 rayDirection =  normalize(forward + FOV*screenCoords.x*right + FOV*screenCoords.y*up); //originally 'rd', fairly standard (not minus camPos cause forward already did that)
         
         
-                //optional background shading? i wonder if its hard to do basic distance "fog"
-                vec3 bgColor = vec3(0.38, 0.75, 0.95);
-        
+                //optional background shading
+                //vec3 bgColor = vec3(0.38, 0.75, 0.95);
+                vec3 bgColor = vec3(1.,0.82, 0.43);
         
                 float intersectDist = intersectCube(rayOrigin, rayDirection, 500., vec3(0.001, 0.001, 0.001), vec3(X_VOXELS-.001, Y_VOXELS-.001, Z_VOXELS-.001));     
                 //float intersectDist = intersectCube(rayDirection, 50., rayOrigin);     
@@ -168,8 +168,9 @@
         
                 if (intersectDist <= -1.) {
                     //outputColor = vec4(bgColor, 1.0);
-                    outputColor = vec4(1.,0.90, 0.55, 1.1-abs(0.5*sin(screenCoords.x+1.57)*cos(screenCoords.y)));
-                    //outputColor = vec4(0.,0.,0., 1.0);
+                    //outputColor = vec4(1.,0.90, 0.55, 1.1-abs(0.5*sin(screenCoords.x+1.57)*cos(screenCoords.y)));
+                    outputColor = vec4(bgColor - 0.3 + abs(0.9*sin(screenCoords.x+1.57)*cos(screenCoords.y)), 1.);
+ 
                     return;
                 }
         
@@ -177,34 +178,133 @@
                 //if past clip planes, return bg color
                 if ( hitVoxel.a != 0. ) {
                    // outputColor = vec4(.05*hitVoxel.y*(1.-(60./distance(hitVoxel.xyz, camPos))), (hitVoxel.y/40.)+0.15*fract(abs(sin(rayDirection.y*intersectDist*1000.)*cos(1234.*rayDirection.z*time)*2.)), hitVoxel.y/23., 1+ //1. - (12./distance(hitVoxel.xyz, camPos))); //random wave surface (CR_VOXELS = 40)
-
-                    outputColor = vec4(.05*hitVoxel.y*(1.-(60./distance(hitVoxel.xyz, camPos))), (0.8+sin(4.*time)/5.)*(hitVoxel.y/23.), hitVoxel.y/19.,   1. - ((hitVoxel.y-14.)/8.));// + 10.*(hitVoxel.y)); //(12./distance(hitVoxel.xyz, camPos))); //random wave surface (CR_VOXELS = 40)
-                    //outputColor = vec4(hitVoxel.r, 0., 0., 1.);
+                    outputColor = vec4(.05*hitVoxel.y*(1.-(60./distance(hitVoxel.xyz, camPos))), (0.8+sin(4.*time)/5.)*(hitVoxel.y/23.), hitVoxel.y/19., 1.) + max(0., (hitVoxel.y-14.)/8.);
+                    // + 10.*(hitVoxel.y)); //(12./distance(hitVoxel.xyz, camPos))); //random wave surface (CR_VOXELS = 40)
                     return;        
                 }
                
         
                 else {
                     //outputColor = vec4(bgColor, 1.0);
-                     outputColor = vec4(1.,0.90, 0.55, 1.1-abs(0.5*sin(screenCoords.x+1.57)*cos(screenCoords.y)));
-                   // outputColor = vec4(0.,0.,1., 1.0);
-        
-                    //outputColor = vec4(normalize(intersectPoint), 1.0);  
-                    //outputColor = vec4(0.15, 0.15, 0.15, 1.);
-                    
-                    
+                    //outputColor = vec4(mix(vec3(1., 1., 1.), bgColor, 1.2-abs(1.*sin(screenCoords.x+1.57)*cos(screenCoords.y))), 1.);
+                    outputColor = vec4(bgColor - 0.3 + abs(0.9*sin(screenCoords.x+1.57)*cos(screenCoords.y)), 1.);   
                 }
             }
         </script>
         
         
         <!---->
-        <script src="4_DDA_texture_input/4-DDA-voxel_renderer.js"></script>
+        <script src="1-voxel-waves/1-voxel-waves-program.js"></script>
     </head>
+        <style>
+            body {
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+              background-color: rgb(33, 36, 44);
+            }
+            
+            h1 {
+              color: rgb(255, 210, 111);
+            }
+            h2 {
+                color: rgb(137, 202, 255);
+            }
+            h3 {
+                font-family:Verdana, Geneva, sans-serif;
+                font-weight: normal;
+                color: rgb(69, 123, 204);
+            }
+            h4 {
+                font-family:Verdana, Geneva, sans-serif;
+                font-weight: normal;
+                color: rgb(69, 123, 204);
+            }
+            p, ul {
+                font-family:Verdana, Geneva, sans-serif;
+                font-size:87%;
+                line-height: 122%;
+                color: rgb(190, 196, 211);
+            }
+            a:link {
+                color: rgb(245, 188, 122);
+            }
+
+            a:visited {
+                color: rgb(238, 136, 96);
+            }
+            a:hover {
+                color: rgb(238, 136, 96);
+                text-decoration: none;
+            }
+            /*** Works on common browsers ***/
+            ::selection {
+                background-color: rgb(190, 196, 211);
+                color:rgb(33, 36, 44);
+            }
+
+            /*** Mozilla based browsers ***/
+            ::-moz-selection {
+                background-color: rgb(190, 196, 211);
+                color:rgb(33, 36, 44);
+            }
+            </style>
     <body onload = "runTest();">
-        <h1 id="test-header">DDA rendered voxels:</h1>
-        <h3 id="info">Frames:</h1>
-        <canvas id="glCanvas" width="640" height="480"></canvas>
-        <h2 id="test-footer">uses texture_3d for input</h2>
+        <h1 style="padding:0px 50px;"id="test-header">Voxel Renderer</h1>
+        <h3 style="padding:0px 75px;"id="test-header">Interactive WebGL Demo</h3>
+        <div style="padding:0px 75px;">
+
+            <div style = "padding:5px 25px;">
+                <canvas id="glCanvas" width="640" height="480"></canvas>
+                <p id="info">Frames:</p>
+            </div>
+            <h2 id="test-footer">Instructions</h2>
+            <p style="padding:0px 25px;">Click the screen, then drag the mouse within the canvas to move the camera. Zoom in and out by scrolling.  
+                To toggle between rotation and click-and-drag mode, press 'r' or spacebar.  </p>
+            <h2 id="test-footer">About</h2>
+            <div style="padding:0px 25px;">
+                <p>This is a voxel renderer written entirely in the fragment shader.  The word 'voxel' stands for 'volume element' in the same way that 
+                    'pixel' stands for 'pixel element', and voxels are essentially cubes.  The world is represented as a 3D grid, where each cube in the grid
+                    can be empty or full. Currently, voxels are stored as a 3D array the size of the grid, and each element in the array is either on or off.
+                </p> 
+                <p>The graphics pipeline typically works by passing polygon vertices to the 'vertex shader', which projects 3D vertices onto 2D screen space.
+                    Then, the 'fragment shader' determines the color of each pixel.  Since I am not using vertices/triangles to represent positions, I do things differently.
+                    You have to pass in vertices, so I pass 2 triangles that cover the full screen to the vertex shader.  Then, I pass the voxel position data to the 
+                    fragment shader as a 3D texture.  Within the fragment shader, I setup a virtual 'camera,' and render everything by sending out rays from the camera origin 
+                    through each pixel, and detect if they pass through a voxel.
+                </p>
+                <p> To do this, first I place the entire voxel grid within a cube, and then detect if a ray hits that cube.  If it doesn't, it can't hit a voxel, and therefore 
+                    draws the background color.  (This is called a 'bounding box' technique.)  If I do hit the bounding box, I use a rasterizing algorithm to detect if I hit a 
+                    voxel.  'Rasterization' is converting a (continuous) vector into the discrete pixels or boxes it passes through. This is generally used to translate 
+                    projected triangles into pixel graphics, but in my case, I use a 3D version to check every box a ray passes through for whether or not there is a voxel there.  
+                    The specific algorithm I use is 3D-DDA (3D Digital Differential Analyzer), where you start at the origin of the ray and calculate the distance to the nearest 
+                    next grid intersection(x, y, or z), then make that next intersection the new origin, and repeat.  At every origin, check for whether that box is empty, or if 
+                    there is a voxel there (by checking the 3D texture data).  If there's a voxel, the function returns; otherwise, it continues until the ray leaves the bounding box
+                    or exceeds some value.
+                </p>   
+                <p> If the ray intersected a voxel, the program calculates the color of the voxel, currently based on position and time.  If it did not intersect a voxel, the pixel is
+                    drawn in the background color.
+                </p> 
+                <p> The waves in the above example are generated by turning voxels on and off in the CPU/javascript program based on added sine functions every frame, and the color
+                    is done in the fragment shader.  Although it doesn't look super high resolution, the above example renders about 100,000 voxels.
+                </p>     
+                <p> I learned most of this through the internet, but here are some specific sites/resources that were very helpful:
+                </p>
+            </div>    
+            <h4>Rendering in the fragment shader:</h4>
+            <ul>
+                <li><a href="http://iquilezles.org/www/material/nvscene2008/rwwtt.pdf">RWWTT.pdf</a> - "Rendering Worlds With Two Triangles."</li> 
+                <li><a href="http://raymarching.com/">Raymarching.com</a> - Many examples of raymarching, click 'view page source' on a given demo to see the code and helpful comment tutorials.</li>
+                <li><a href="http://ShaderToy.com">ShaderToy.com</a> - A site where anyone can upload and view fragment shaders</li>
+            </ul>    
+            <h4>Bounding box: </h4>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=4h-jlOBsndU&list=PLMinhigDWz6emRKVkVIEAaePW7vtIkaIF&index=49">Ray intersects Bounding Box (AABB)</a> - a video tutorial</li>
+                <li><a href="http://ray-tracing-conept.blogspot.com/2015/01/ray-box-intersection-and-normal.html">Ray-Box intersection</a> - a tutorial</li>
+            </ul>
+            <h4>3D-DDA:</h4>
+            <ul>
+                <li><a href="https://www.scratchapixel.com/lessons/advanced-rendering/introduction-acceleration-structure/grid">Grid Acceleration Structures</a> - very detailed explanation of the math behind 3D-DDA with diagrams and psuedocode </li>
+                <li><a href="http://castingrays.blogspot.com/2014/01/voxel-rendering-using-discrete-ray.html">Voxel Rendering DDA</a> - also a tutorial on 3D-DDA, but aimed specifically at voxel rendering</li>            
+            </ul>
+        </div>
     </body>
 </html>

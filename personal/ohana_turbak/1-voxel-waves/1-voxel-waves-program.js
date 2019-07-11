@@ -39,7 +39,13 @@ var runTest = function() {
   //event listener 
   
   document.addEventListener('keydown', function(event) { //use for key events 
-    if(event.keyCode == 69) { //'e'
+    if(event.keyCode == 32) {
+      event.preventDefault();
+      isRotating = Math.abs(isRotating - 1); //if its 0 become 1, if 1 become 0
+
+    }
+    if( event.keyCode == 82 || event.keyCode == 69) { //'r', space, or 'e'
+
       isRotating = Math.abs(isRotating - 1); //if its 0 become 1, if 1 become 0
       //console.log("keydown e");
 
@@ -54,6 +60,7 @@ var runTest = function() {
   });
 
   canvas.addEventListener('mousedown', function(event) {
+    isRotating = 0;
     mouseIsDown = true;
     prevX = event.clientX;
     prevY = event.clientY;
