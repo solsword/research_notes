@@ -7,7 +7,7 @@ HTML := $(shell find . -name "*.md" | sed -e "s/\.md/.html/g")
 .PHONY: all
 all: $(HTML)
 
-.DEFAULT: all
+.DEFAULT_GOAL := all
 
 .PHONY: clean
 clean:
