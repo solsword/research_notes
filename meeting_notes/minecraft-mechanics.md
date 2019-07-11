@@ -153,3 +153,52 @@
 
 - Write 1--3 paragraph summaries of your interest area's relationship to
   colonialism by Thursday at 1:00 p.m.
+
+## Followup
+
+2019-7-11
+
+Hannah:
+
+- Mobs, aggro, and AI
+    - Us/them mindset
+    - Power imbalance
+    - Imaginative geography
+        * No way to claim land
+        * Emotional attachment to things you build
+        * Creepers
+
+Ohana:
+
+- Why collect if the upgrade loop is short?
+- Place things in the world in a way you recognize even if the game doesn't.
+- Access to infinite resources not because they're renewable but because the
+  world is infinite.
+- No concept of world belonging to anyone but players.
+    * This is complicated because we don't want to assume land is always owned.
+- Emotionally there's a sense of claiming stuff in Minecraft
+- Things like chests lead to claiming territory
+    * Playing "as intended" leads to claiming territory 
+    * There's no push-back
+    * You collect resources from other places too
+- Amount of hours spent is far in excess of complexity of tech tree/campaign
+- You're really the only one that moves blocks around significantly.
+
+Christine:
+
+- Categorized achievements
+- Killing things
+- Exploration
+- Crafting
+- Animal interactions (?)
+    * Ones that involve killing and ones that don't?
+- Acquisition of goods/collection
+- Miscellaneous
+- Actions (eat/wear/spawn/dye/play music/wear)
+- Xbox has numerical values (% numeric / % value):
+    * Killing -> 14% / 15%
+    * Exploration -> 9% / 10%
+    * Crafting -> 17% / 13%
+    * Animal interactions -> 15% / 13%
+    * Acquisition -> 7% / 8%
+    * Actions -> 24% / 22%
