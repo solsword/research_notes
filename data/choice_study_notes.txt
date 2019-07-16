@@ -1,0 +1,94 @@
+# Choice study setup
+
+## Conditions
+
+- expected_success: all options should seem positive and outcome should feel
+  positive.
+- unexpected_success: all options should seem negative but outcome should feel
+  positive.
+- expected_failure: all options should seen negative and outcome should feel
+  negative.
+- unexpected_failure: all options should seem positive but outcome should feel
+  negative.
+- obvious_success: one option should seem positive while other option should
+  seem negative; the positive-seeming option has an outcome that should feel
+  positive, and the negative-seeming options have outcomes that should feel
+  negative.
+- obvious_failure: one option should seem positive while other option should
+  seem negative; the positive-seeming option has an outcome that should feel
+  negative, while the negative-seeming options have outcomes that should feel
+  positive.
+
+Note: The decision.case field is either "main" or "alt." It only matters in the
+"obvious" cases, where it's "main" if the participant chose the "obvious"
+choice, and "alt" if they chose a different option. In the "obvious_success"
+case, the "main" choice led to a (hopefully expected) success, and the others
+to (expected) failures, while in the "obvious_failure" case, the "main" choice
+led to unexpected failure and the other choices led to unexpected success.
+
+## Questions
+
+Below are the questions that were asked. These were answered as 5-point Likert
+items (but the items don't combine to make a full Likert scale).
+
+- About options:
+    * opt.obvious: Considering just the options, there seems to be a clear best
+      option at this choice.
+    * opt.balanced: Ignoring outcomes, the options at this choice all seem
+      about equally good (or bad).
+    * opt.nobad: Ignoring outcomes, there are no options that seem bad at this
+      choice.
+    * opt.nogood: Ignoring outcomes, none of the options at this choice seem
+      good.
+    * opt.stakes: Considering just the options, the stakes for this choice seem
+      low.
+- About outcomes:
+    * out.fair: Given the options available, the outcome I got is fair.
+    * out.unfair: The outcome that I got is unfair, given the options available.
+    * out.sense: The outcome that I got makes sense given the option that I
+      selected.
+    * out.broken: There might be a problem with this choice--the outcome I got
+      does not make sense.
+    * out.good: The outcome that I got is a good outcome.
+    * out.bad: I got a bad outcome.
+    * out.happy: I'm happy with the option that I chose.
+    * out.regret: I wish I had chosen a different option.
+    * out.expected: I pretty much expected the outcome that I got.
+    * out.unexpected: The outcome that I got is completely unexpected.
+
+## Hypotheses
+
+There were more than 100 hypotheses in the original study, but here are a few
+interesting ones:
+
+- Simple hypotheses:
+    * About options:
+        * Participants will feel that the "obvious" cases are obvious (using
+          opt.obvious and opt.balanced).
+        * Participants will feel that the "obvious" and "expected success"
+          cases have some good options, and that the "expected failure" case
+          has no good options (using opt.nogood).
+    * About outcomes:
+        * Participants will feel that outcomes which were supposed to seem good
+          are good (using both out.good and out.bad).
+        * Participants will feel that outcomes which were supposed to seem bad
+          are bad (using both out.good and out.bad).
+
+- Complex hypotheses:
+    * About outcomes:
+        * Participants will feel that unexpected positive outcomes are more
+          fair than unexpected negative outcomes (comparing out.fair and
+          out.unfair between unexpected_failure and unexpected_success).
+        * Participants will feel that unexpected failures are worse outcomes
+          than expected failures (comparing out.good and out.bad between the
+          unexpected_failure and expected_failure cases).
+        * Participants will be less satisfied with the outcomes of their
+          obvious choices that lead to unexpected failure than with the
+          outcomes of their doomed choices that lead to expected failure.
+          (comparing out.happy and out.regret between the obvious_failure(main)
+          and expected_failure cases).
+        * Participants will feel less satisfied with a choice that leads to an
+          unexpected negative outcome when the options seem to favor the chosen
+          option vs. when the options are all positive (comparing out.happy and
+          out.regret between the unexpected_failure and obvious_failure(main)
+          cases).

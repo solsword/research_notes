@@ -1,0 +1,13 @@
+The surface_temp.csv file contains data in the following format:
+
+year, month (1=January), latitude (°), longitude (°), temperature anomaly (°C)
+
+
+Temperature anomalies are blank when data is not available (question:
+where/when?). The temperature anomalies are measured in degrees Centigrade
+relative to a baseline.
+
+Data is from January 2000 through December 2018.
+
+Original source is the NOAA Global Temperatures dataset
+(https://www.ncdc.noaa.gov/sotc/global/201902).
