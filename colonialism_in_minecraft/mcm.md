@@ -2,8 +2,8 @@
 title: 'The Mechanics of Colonialism in Minecraft'
 author:
 - Christine Lam
-- Hannah May
 - Peter Mawhorter
+- Hannah May
 - Ohana Turbak
 keywords: [colonialism, Minecraft, TODO]
 abstract: |
