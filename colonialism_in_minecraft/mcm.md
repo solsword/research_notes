@@ -1,0 +1,60 @@
+---
+title: 'The Mechanics of Colonialism in Minecraft'
+author:
+- Christine Lam
+- Hannah May
+- Peter Mawhorter
+- Ohana Turbak
+keywords: [colonialism, Minecraft, TODO]
+abstract: |
+ TODO: Write the abstract...
+bibliography: refs.bib
+...
+
+## Introduction
+
+Colonialism is a perspective which either explicitly or implicitly justifies and valorizes colonial domination.
+Especially in places where colonial domination is ongoing, such as North America, colonialism's justificatory function is an important part of societies that want to see themselves as just despite their manifestly unjust relationships with the original inhabitants of the land that they occupy [@TODO].
+Accordingly, such societies produce and consume media which serve the societal function of promoting and teaching colonialism.
+Besides textbooks [@TODO], novels, [e.g., @TODO; @TODO; @TODO], and movies [@TODO], games can also serve this purpose, communicating colonialist values and narratives. 
+
+As interactive art, games are an interesting medium with respect to colonialism because game mechanics can convey implicit messages about how the world works.
+This is the notion of procedural rhetoric [@TODO].
+The rhetorical goals of colonialism (justification and valorization of colonial domination) can potentially be furthered directly by game mechanics, without any overt pro-colonialism messaging being present.
+So for example, while a game like *Civilization* involves both overtly colonialist narrative messages and thematic elements [@TODO], a game lacking either could still have colonialist messages embedded in its mechanics, because mechanics establish truths about the virtual world of a game that become implicit statements about what is true in the real world [@TODO].
+Of course, players do not necessarily receive these messages uncritically [@TODO Critical Play], nor is it true that in-game messages translate directly to beliefs about the real world [@TODO on violence].
+But such implicit messages can serve rhetorical purposes, and they seem an especially convenient mechanism for delivering the messages of colonialism, which are, when stated directly, fairly abhorrent, but which can seem innocuous when presented indirectly [@TODO: cite?]TODO: footnote here?.
+
+In this context, we are interested in understanding how colonialist ideas might manifest at the mechanical level in the game Minecraft [@TODO minecraft].
+Minecraft is an important game for several reasons, in part because of its broad audience [@TODO sales figures], but particularly because it is marketed towards and popular among elementary-school-aged children [@TODO marketing, @TODO popularity], thus potentially being part of children's media diet at an age when they are still forming core beliefs about their relationship to the society they live in and that society's relationship to others [@TODO: belief formation?].
+In fact, the colonialist messages of Minecraft have already been the subject of both academic and popular attention [@TODO], but existing analyses have not focused on the mechanical level specifically.
+Our focus on mechanics (and the operational logics [@TODO] that they constitute) potentially broadens the relevance of our analysis, because Minecraft's success has inspired an entire genre of games that use similar core mechanics [@TODO Terraria, No Man's Sky, etc. or article?].
+To the extent to which Minecraft's mechanics and operational logics exist in these games too, the same colonialist messages are probably present, although such things can be mediated by thematic or narrative elements (for example, *Spec Ops: The Line's* tragic narrative frame reconfigures the messages embedded in its mechanics [@TODO Spec Ops; @TODO analysis]).
+
+Through gameplay and by reading the Minecraft Wiki [@TODO], we have identified several key operational logics in Minecraft which support colonialist rhetorics within the game:
+
+- The logic of monsters and enemies, including spawning patterns, and AI (particularly surrounding aggression), supports the colonialist ideas that 1. Some sentient beings (i.e., Indigenous people) are *inhernetly* evil, and therefore categorically have lower moral standing than others, and 2. Related to but independent of point 1, settlers act in self-defense when they engage in military action against Indigenous people.
+- The logic of NPCs, known as "Villagers," supports the colonialist ideas that 1. Indigenous people are sub-human, and therefore not morally equivalent to settlers, which means that settler atrocities are not morally reprehensible, and 2. Indigenous people are helpless and/or "uncivilized" and therefore ultimately benefit from colonialism.
+- The logics of inventory, possession, and territory support the colonialist ideas that: 1. The contents of the natural world are rightly viewed as resources, and accumulation of them is a positive and beneficial activity, and 2. Indigenous inhabitants do not claim territory or make use of natural resources, and therefore settlers taking possession of these does not impact Indigenous ways of life.
+- The logics of terrain and exploration support the colonialist ideas that: 1. Most territory is uninhabited, and therefore colonizing it does not impact anyone, and 2. Indigenous people have no geographical knowledge of the areas where they live, which reinforces point 1.
+
+Additionally, we find that the explicit goal structure of the game, manifest as "Advancements," encourages actions such as resource extraction and combat, while at the same time it barely acknowledges some very popular in-game pursuits like construction.
+This pattern of explicit in-game incentives thus acts to reinforce and encourage players to engage with the colonialist logics that we have identified.
+
+Although the logics and attendant mechanics that we identify here are not necessarily an exhaustive list of the ways that Minecraft's procedural rhetoric supports colonialism, they are key interactions where the truth of Minecraft's virtual world diverges from the real world to match the colonialist perspective.
+As we discuss further in the section on colonialism, these implicit and procedural colonialist rhetorics echo more traditional thematic and narrative rhetorics of colonialism in other media, and these misrepresentations of the past and present are doing harm today [@TODO Friedman report].
+And if the problem is not merely with the specific design of Minecraft, but is tied to specific operational logics that it deploys, then this is a broader issue in game design which requires critical examination of other games that deploy these logics, and which would seem to invite designers to consider or invent alternative logics.
+
+## Colonialism
+
+## Mechanics
+
+## Monsters and Aggression
+
+## Acquisition, Accumulation, and Territory
+
+## Terrain and Exploration
+
+## Advancements and Incentives
+
+...

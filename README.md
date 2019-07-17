@@ -9,6 +9,7 @@ Shared public repository for research notes, readings, and similar material.
 * [Readings](readings/)
 * [Meeting Notes](meeting_notes/) - Meeting notes.
 * [Personal](personal/) - Individual research notes.
+* [Colonialism in Minecraft](colonialism_in_minecraft/) - Journal paper.
 
 ### Tutorials/Info
 

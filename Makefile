@@ -1,5 +1,5 @@
-%.html: %.md
-	pandoc -s $< -o $@
+%.html: %.md head.html
+	pandoc -s $< --include-in-header="head.html" -o $@
 
 MKD := $(shell find . -name "*.md")
 HTML := $(shell find . -name "*.md" | sed -e "s/\.md/.html/g")
