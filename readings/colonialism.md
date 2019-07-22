@@ -49,6 +49,8 @@
 
 * [The 'positive role' of colonisation: deconstructing a lie](http://en.lisapoyakama.org/the-positive-role-of-colonization-deconstructing-a-lie/)
 
+* [Digital Conquerers: Minecraft and the Apologetics of Neoliberalism](pdfs/digital_conquerers.pdf)
+
 ### Definitions & Summaries
 
 * [Myths of the Native](https://scholarblogs.emory.edu/postcolonialstudies/2014/06/21/myths-of-the-native/) - This web page is a great resource on postcolonial studies & has pages that summarize many important works and biographies of important authors.
@@ -118,7 +120,7 @@
 
 * [Colonialism: A Theoretical Overview](http://wellesley.summon.serialssolutions.com.ezproxy.wellesley.edu/#!/search/document?ho=t&l=en&q=colonialism:%20a%20theoretical%20overview&id=FETCHMERGED-proquest_abstracts_389346902) - By Jürgen Oserhammel; see review above.
 
-### On Colonialism in Games
+### On Colonialism in/and Games
 
 * [Nintendo® and New World Travel Writing: A Dialogue](https://web.stanford.edu/class/history34q/readings/Cyberspace/FullerJenkins_Nintendo.html) - An essay in dialogue form cited by the article above that talks about Super Mario Bros. relationship to colonial mythos of princess rescue.
 
@@ -128,9 +130,15 @@
 * [Imaginary Russia. The Orientalisation of USSR in Command & Conquer: Red Alert series](http://www.digra.org/wp-content/uploads/digital-library/DIGRA_2018_paper_288.pdf)
 * [The SEGA and Microsoft History of India: The British Raj in Videogames](http://www.digra.org/wp-content/uploads/digital-library/MUKHERJEE_PWH3A_1AUG_LT1.pdf)
 
+* [The Elder Scrolls V: Skyrim and its audience as a world-building benchmark for Indigenous virtual cultural heritage.](https://pure.bond.edu.au/ws/portalfiles/portal/29084356/Majewski_PhD_Thesis_Vol._1_Main_document_.pdf) - Thesis on Skyrim as a potential site for modding that could enable modern transmission of Australian Aboriginal culture. Relevant as a more positive prospect for the sociocultural function of games.
+
+* [Dirt not Soil: A Unit Analysis of Minecraft Dirt Blocks and Gameworld Representations of Global Environmental Ideologies](https://search.proquest.com/openview/546c77f76f921384bf43bc0a7d64d944/1?cbl=18750&diss=y&pq-origsite=gscholar) - Haven't gotten full access, but seems to be a parallel similar work focusing on issues of environmentalism instead of colonialism. [PDF of preview](pdfs/dirt_not_soil.pdf).
+
 ### Minecraft-specific
 
 * [Gardening Games](pdfs/gardening-games.pdf) - Games studies academic article that talks about colonialism, Minecraft, and design options.
+
+* [Childhood's End (or, We Have Never Been Modern, Except in Minecraft](https://read.dukeupress.edu/cultural-politics/article/14/3/289/136859/Childhood-s-End-or-We-Have-Never-Been-Modern) - Article on grids, modernity, and Minecraft, which isn't completely relevant to our arguments but is a good general example of critical scholarship on the game.
 
 * [Minecraft is an Allegory for Colonialism](https://medium.com/@ikechukwuanude/minecraft-is-an-allegory-for-colonialism-92f9a11265f9) - Blog post on Minecraft and colonialism.
 
