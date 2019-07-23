@@ -40,7 +40,7 @@ var runTest = function() {
   
   document.addEventListener('keydown', function(event) { //use for key events 
     if(event.keyCode == 32) {
-      event.preventDefault();
+      event.preventDefault(); //so page doesnt scroll
       isRotating = Math.abs(isRotating - 1); //if its 0 become 1, if 1 become 0
 
     }
@@ -54,7 +54,7 @@ var runTest = function() {
 
 
   canvas.addEventListener('wheel', function(event) {
-    event.preventDefault();
+    event.preventDefault();//so page doesnt scroll
     currentZoom += event.deltaY/5; //5 arbitrary
     //console.log(currentZoom);
   });
