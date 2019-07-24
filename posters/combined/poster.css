@@ -1,0 +1,257 @@
+body {
+  margin: 0pt auto 0pt auto;
+  padding: 1in;
+  width: 48in;
+  height: 36in;
+  border: 2pt solid black;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: sans-serif; /* TODO */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 0.5in;
+  flex-grow: 0;
+}
+
+header .title {
+  font-size: 120pt;
+  margin: 0pt 0pt 16pt 0pt;
+  padding: 0pt;
+  color: #337799;
+}
+
+header p.author {
+  font-size: 72pt;
+  display: inline-block;
+  margin: 0pt 30pt 0pt 30pt;
+  padding: 0pt;
+}
+
+.body {
+  width: 100%;
+  margin: 0pt;
+  padding: 0pt;
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 40pt;
+  line-height: 130%;
+  text-align: justify;
+}
+
+.body .smaller {
+  font-size: 34pt;
+}
+
+.body>div {
+  padding: 0pt 0.5in 0.5in 0.5in;
+  margin: 0pt;
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-basis: 1pt;
+}
+
+/*
+.body>div:first-child {
+  border-right: 4pt solid black;
+}
+
+.body>div:last-child {
+  border-left: 4pt solid black;
+}
+*/
+
+.body>div p {
+  margin-top: 0pt;
+  margin-bottom: 24pt;
+}
+
+.body h1 { font-size: 64pt; font-weight: bold; margin: 12pt 0pt 24pt 0pt; }
+.body h2 { font-size: 58pt; font-weight: bold; margin: 12pt 0pt 24pt 0pt; }
+.body h3 { font-size: 52pt; font-weight: bold; margin: 10pt 0pt 20pt 0pt; }
+.body h4 { font-size: 48pt; font-weight: bold; margin: 10pt 0pt 20pt 0pt; }
+.body h5 { font-size: 44pt; font-weight: bold; margin: 8pt 0pt 16pt 0pt; }
+.body h6 { font-size: 42pt; font-weight: bold; margin: 8pt 0pt 16pt 0pt; }
+
+.body ul, .body ol {
+  margin: 32pt 0pt 32pt 0pt;
+    /*
+  margin-block-start: 32pt;
+  margin-block-end: 32pt;
+  margin-inline-start: 0pt;
+  margin-inline-end: 0pt;
+    */
+  padding-left: 56pt;
+}
+
+.body ul ul, .body ol ol, .body ul ol, .body ol ul {
+  margin: 0pt;
+}
+
+.body li {
+  margin: 16pt 0pt 16pt 0pt;
+}
+
+.fig {
+  text-align: center;
+  display: block;
+  margin: 24pt 0pt 24pt 0pt;
+  font-size: 36pt;
+}
+
+.block {
+  border-radius: 24pt;
+  border-width: 4pt;
+  border-style: solid;
+  padding: 24pt;
+  margin: 0pt 0pt 24pt 0pt;
+  border-color: #007799;
+  background-color: #eef4ff;
+}
+
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
+  color: #337799;
+}
+
+/* plum * /
+.alt {
+  border-color: #993377;
+  background-color: #ffeef4;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #993377;
+}
+/**/
+
+/* purple * /
+.alt {
+  border-color: #773399;
+  background-color: #f4eeff;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #773399;
+}
+/**/
+
+/* gray * /
+.alt {
+  border-color: #999999;
+  background-color: #eeeeee;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #555555;
+}
+/**/
+
+/* orange */
+.alt {
+  border-color: #ffaa00;
+  background-color: #fff4e0;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #ffaa00;
+}
+/**/
+
+/* green * /
+.alt {
+  border-color: #339977;
+  background-color: #eefff4;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #339977;
+}
+/**/
+
+/* brown * /
+.alt {
+  border-color: #773300;
+  background-color: #fff4ee;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #773300;
+}
+/**/
+
+/* khaki * /
+.alt {
+  border-color: #bb9966;
+  background-color: #ffffe8;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #bb9966;
+}
+/**/
+
+/* slate blue * /
+.alt {
+  border-color: #556688;
+  background-color: #eeeeff;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #556688;
+}
+/**/
+
+/* blue * /
+.alt {
+  border-color: #000088;
+  background-color: #ccccff;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #000088;
+}
+/**/
+
+/* light blue * /
+.alt {
+  border-color: #8899dd;
+  background-color: #f8f8ff;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #8899dd;
+}
+/**/
+
+/* light blue * /
+.alt {
+  border-color: #8899dd;
+  background-color: #f8f8ff;
+}
+
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  color: #8899dd;
+}
+/**/
+
+.alt, .block {
+  background: none;
+  border: none;
+}
+
+.block h1 {
+  color: black;
+  background-color: #aaffdd;
+  border-radius: 24pt;
+  padding: 24pt;
+}
+
+.alt h1 {
+  /*background-color: #995500;*/
+  background-color: #ffdd88;
+  color: black;
+}
