@@ -1,80 +1,121 @@
 ---
-title: Title Goes Here
+title: The Mechanics of Colonialism in Minecraft
 author:
+- Christine Lam
+- Hannah May
+- Ohana Turbak
 - Peter Mawhorter
-- Author 2
-- Author 3
 ...
 
 ::::: {.body}
 
 ::: {.col}
 
-:::: {.block}
-# Column 1
+# Colonialism and Games {.section}
 
-This is a test of the poster template.
+- Colonialism seeks to justify and valorize colonial domination, like the ongoing domination of Native Americans by the United States of America.
+- Popular culture spreads colonialist beliefs.
+- Games can promote ideologies.¹
+- Besides their 2D art, text, and sound, games include rules, also known as "mechanics."
+- Rules themselves can communicate messages, including colonialist messages.
 
-- This template uses 120pt font for the title, 72pt font for the authors, 60pt
-  bold font for the section titles, and 40pt font for the main text (34pt for
-  smaller text).
-- This layout is 48" by 36", a standard poster size in the U.S.
-    * It has a 1-inch margin on the outside, and 1-inch gaps between the
-      columns with 4pt rules down the middle.
-    * Each block has a 4pt border with 24pt padding and a 24pt bottom margin.
-    * The border color is `#337799` and the background color is `#eef4ff`.
+:::: {.fig}
+![Screenshot of the Minecraft tile screen displaying the logo and buttons for "Singleplayer", "Multiplayer", "Minecraft Realms", "Options", and "Quit Game"](screenshots/title_screen.png){width=80%}\ 
+
+The Minecraft title screen.
 ::::
 
-:::: {.block .alt}
-# Section
+# Minecraft {.section .alt}
+- The best-selling game of all time (>176 million copies).
+- A blocky world where any block can be mined.
+    * Craft blocks into tools and other blocks.
+    * Blocks can be placed to build things.
+- Generated terrain includes a variety of climates, underground caves, and "natural resources" like ore.
+- The world is populated by passive animals, aggressive monsters, benign "villagers," and evil "illagers."
+    * Animals include livestock, pets, and wild animals.
+    * Monsters appear at night and attack on sight.
+    * Villagers live in villages and can be traded with.
+    * Illagers appear randomly and attack immediately.
 
-1. Numbered lists can also be useful.
-1. Numbering in Markdown is automatic.
-    a. Numbered lists can be nested.
-    a. Different numbering systems should be used
-        i. For different levels of nesting
-        i. Like this
-::::
-
-:::
-
-::: {.col}
-
-:::: {.block .alt}
-# Column 2
-
-::: {.smaller}
-This paragraph has smaller text, in case you need to fit more words. But note that this is often a bad design choice: focus on presenting information clearly with as little reading required as possible. Use diagrams and images to illustrate your points, and explain only as much as strictly necessary.
-:::
-
-Text styles like *italics* and **bold** are available.
-Links like [www.example.com](www.example.com) can even be included (but only
-the link text will be printed, so using the URL as the link text is probably a
-good idea even though it's generally a poor accessibility choice).
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-(That was a block quote)
+::::{.footnote}
+¹ Bogost, Ian, *Persuasive Games*. MIT Press, 2007.
 ::::
 :::
 
 ::: {.col}
 
-:::: {.block}
-# Column 3
+# Colonialist Myths {.section .alt .doublewide}
 
-```py
-def this_is(a, test):
-  of = "a code block"
-  return "it works!"
-```
+- Game mechanics dictate what is true in the game world, and imply things about the real world.
+- Several Minecraft mechanics support colonialist myths which help justify past and present colonial domination.²
+
+
+## Accumulating Blocks
+
+- Ore is finite, but can always find more by moving on.
+- No large-scale consequences of extraction.
+    * *Reinforces myth that 'natural resources' are plentiful and extracting them is harmless.*
+- Mass extraction is made easy due to enormous inventory.
+
+## Terrain and Exploration
+
+- Most generated terrain is uninhabited.
+    * *Reinforces myth of the 'wild frontier.'*
+- Villagers don't use land outside of their small villages.
+- Maps position player as discoverer.
+    * *Reinforces myth of of Western 'discovery.'*
+
+:::: {.fig}
+![Mining coal blocks.](screenshots/mining_coal.png)\ 
+![A map being filled in.](screenshots/map_with_voyage.png)\ 
+![A skeleton.](screenshots/skeleton_attacking.png)\ 
+![Two villagers in a village.](screenshots/villagers.png)\ 
+
+Clockwise from top left: 1. Mining coal; 2. A map being filled in;<br/> 3. A pair of villagers; 4. A skeleton monster.
 ::::
 
-::: {.fig}
-![A blue circle with a black part of the edge that spins around.](loading.gif){.figure width=50%}\ 
-
-Here's an animated image (only the first frame would appear in print). This text is a caption.
+::::{.footnote}
+² Dooghan, Daniel, *Digital Conquerors: Minecraft and the Apologetics of Neoliberalism*. In *Games and Culture* v. 14, 2016.
+::::
 :::
+
+::: {.col}
+
+\ 
+
+\ 
+
+## Monsters and Illagers
+
+- Intelligent, but unconditionally attack player on sight.
+- Implies categories of sentient creature:
+    * 'Rational' creatures that can be reasoned with.
+    * 'Inherently evil' creatures that attack by nature.
+    * *Reinforces myth that morality/behavior is biologically determined, and justifies aggression as self-defense.*
+
+
+## Villagers
+
+- No combat, building, or crafting ability (despite living in constructed dwellings).
+- Not shown as builders of advanced ruins like shipwrecks.
+    * *Reinforces myth that Natives had no technology.*
+- Depend on player for defense against monsters.
+    * Ironically, monsters are only attracted by player.
+    * Sets up player as "savior," villagers as beneficiaries.
+    * *Reinforces myth that Natives were helpless and benefited from colonialism.*
+
+# Impacts {.section}
+
+- Some players and fans revel in colonialist fantasies (*"...who doesn't want to be all barbarian and destroy every village[?]"* from [the Minecraft Wiki tutorial on Colonizing](https://minecraft.gamepedia.com/Tutorials/Colonizing)).
+- Mechanics support explicit teaching of colonialist myths (e.g., a ["British Colonisation" lesson](https://education.minecraft.net/lessons/british-colonisation/) on the [Minecraft Education Edition site](https://education.minecraft.net/) to teach about *"what the settlers went through"* in Australia).
+- Meanwhile, native stereotypes like mascots cause demonstrable psychological harm.³
+- Similar mechanics exist in many game genres, because mechanics are often uncritically copied by other games.
+
+
+::::{.footnote}
+³ Stegman, Erik and Phillips, Victoria F., *Missing the Point: The Real Impact of Native Mascots and Team Names on American Indian
+and Alaska Native Youth*. Center for American Progress, July 2014.
+::::
 
 :::
 

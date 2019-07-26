@@ -3,8 +3,16 @@ head.html: poster.css
 	cat $< >> $@
 	echo "</style>" >> $@
 
-%.html: %.md head.html
-	pandoc --standalone $< --include-in-header="head.html" -o $@
+fontawesome.html: solid.css
+	echo "<style>" > $@
+	cat $< >> $@
+	echo "</style>" >> $@
+
+%.html: %.md head.html fontawesome.html
+	pandoc --standalone $< --include-in-header="head.html" --include-in-header="fontawesome.html" -o $@
+
+poster.pdf: poster.html
+	echo "Sorry, you've got to open in in a browser and print it."
 
 TARGETS := $(shell \
 	find . -name "*.md" \
