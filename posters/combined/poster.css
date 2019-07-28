@@ -80,6 +80,7 @@ header p.author {
   left: 0pt;
   bottom: 0pt;
   padding: 0pt 0.5in 0pt 0.5in;
+  line-height: 115%;
 }
 
 .body>div {

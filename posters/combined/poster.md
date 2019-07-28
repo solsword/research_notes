@@ -88,9 +88,7 @@ Clockwise from top left: 1. Mining coal; 2. A map being filled in;<br/> 3. A pai
 ## Monsters and Illagers
 
 - Intelligent, but unconditionally attack player on sight.
-- Implies categories of sentient creature:
-    * 'Rational' creatures that can be reasoned with.
-    * 'Inherently evil' creatures that attack by nature.
+- Implies some creatures are inherently/irredeemably evil.
     * *Reinforces myth that morality/behavior is biologically determined, and justifies aggression as self-defense.*
 
 
@@ -104,12 +102,18 @@ Clockwise from top left: 1. Mining coal; 2. A map being filled in;<br/> 3. A pai
     * Sets up player as "savior," villagers as beneficiaries.
     * *Reinforces myth that Natives were helpless and benefited from colonialism.*
 
+## Advancements
+
+- Tutorial & achievement system rewards certain actions.
+    * *Incentivizes colonialist activities (even killing villagers).*
+- Provides an overarching narrative of progress.
+
 # Impacts {.section}
 
 - Some players and fans revel in colonialist fantasies (*"...who doesn't want to be all barbarian and destroy every village[?]"* from [the Minecraft Wiki tutorial on Colonizing](https://minecraft.gamepedia.com/Tutorials/Colonizing)).
 - Mechanics support explicit teaching of colonialist myths (e.g., a ["British Colonisation" lesson](https://education.minecraft.net/lessons/british-colonisation/) on the [Minecraft Education Edition site](https://education.minecraft.net/) to teach about *"what the settlers went through"* in Australia).
-- Meanwhile, native stereotypes like mascots cause demonstrable psychological harm.³
-- Similar mechanics exist in many game genres, because mechanics are often uncritically copied by other games.
+- These myths cause demonstrable psychological harm.³
+- Similar mechanics exist in many game genres, because mechanics are often uncritically copied between games.
 
 
 ::::{.footnote}
