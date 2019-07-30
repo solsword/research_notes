@@ -1,14 +1,46 @@
-/* sky-sun */
 :root {
+  /* sky-sun colors */
   --main-color: #adf;
   --main-darker: #8cd;
   --main-faded: #bef;
   --alt-color: #ffa;
   --alt-darker: #dd8;
   --alt-faded: #ffc;
+  /* Linux Biolinum O font sizes */
+  --title-font-size: 120pt;
+  --author-font-size: 72pt;
+  --text-font-size: 40pt;
+  --figure-font-size: 38pt;
+  --small-font-size: 36pt;
+  --footnote-font-size: 30pt;
+  --h1-fs: 60pt;
+  --h2-fs: 52pt;
+  --h3-fs: 48pt;
+  --h4-fs: 46pt;
+  --h5-fs: 44pt;
+  --h6-fs: 42pt;
 }
-/* */
 
+
+/* Force real italics (fixes printing issue but... T_T) */
+@font-face {
+  font-family: "Biolinum";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Linux Biolinum O'), url('LinBiolinum_R.otf');
+}
+@font-face {
+  font-family: "Biolinum";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Linux Biolinum O Bold'), url('LinBiolinum_RB.otf');
+}
+@font-face {
+  font-family: "Biolinum";
+  font-style: italic;
+  font-weight: 400;
+  src: local('Linux Biolinum O Italic'), url('LinBiolinum_RI.otf');
+}
 
 body {
   margin: 0pt auto 0pt auto;
@@ -16,11 +48,26 @@ body {
   width: 48in;
   height: 36in;
   border: 2pt dotted black;
+  box-sizing: border-box;
   /*box-sizing: border-box;*/
   display: flex;
   flex-flow: column nowrap;
-  font-family: sans-serif; /* TODO */
+  /* We considered a few fonts but settled on this one */
+  /**/font-family: "Biolinum", sans-serif;/**/
+  /** /font-family: "Dosis", sans-serif;/**/
+  /** /font-family: "Ubuntu", sans-serif;/**/
+  /** /font-family: "Candela", sans-serif;/**/
 }
+
+em {
+  font-family: "Biolinum", sans-serif;
+}
+
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Linux Biolinum O", sans-serif;
+}
+*/
 
 @page {
   size: 48in 36in;
@@ -44,13 +91,13 @@ header {
 }
 
 header .title {
-  font-size: 120pt;
+  font-size: var(--title-font-size);
   margin: 0pt 0pt 16pt 0pt;
   padding: 0pt;
 }
 
 header p.author {
-  font-size: 72pt;
+  font-size: var(--author-font-size);
   display: inline-block;
   margin: 0pt 30pt 0pt 30pt;
   padding: 0pt;
@@ -65,22 +112,28 @@ header p.author {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: stretch;
-  font-size: 40pt;
-  line-height: 130%;
+  font-size: var(--text-font-size);
+  line-height: 120%;
   text-align: justify;
 }
 
 .smaller {
-  font-size: 34pt;
+  font-size: var(--small-font-size);
 }
 
 .footnote {
-  font-size: 24pt;
+  font-size: var(--footnote-font-size);
   position: absolute;
   left: 0pt;
   bottom: 0pt;
   padding: 0pt 0.5in 0pt 0.5in;
+  padding-left: calc(0.5in + 0.5em);
+  text-indent: -0.5em;
   line-height: 115%;
+}
+
+.body .footnote>p {
+  margin-bottom: 4pt;
 }
 
 .body>div {
@@ -110,12 +163,12 @@ header p.author {
   margin-bottom: 24pt;
 }
 
-.body h1 { font-size: 64pt; font-weight: bold; margin: 12pt 0pt 24pt 0pt; }
-.body h2 { font-size: 52pt; font-weight: bold; margin: 12pt 0pt 24pt 0pt; }
-.body h3 { font-size: 47pt; font-weight: bold; margin: 10pt 0pt 20pt 0pt; }
-.body h4 { font-size: 44pt; font-weight: bold; margin: 10pt 0pt 20pt 0pt; }
-.body h5 { font-size: 43pt; font-weight: bold; margin: 8pt 0pt 16pt 0pt; }
-.body h6 { font-size: 42pt; font-weight: bold; margin: 8pt 0pt 16pt 0pt; }
+.body h1 { font-size:var(--h1-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+.body h2 { font-size:var(--h2-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+.body h3 { font-size:var(--h3-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+.body h4 { font-size:var(--h4-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+.body h5 { font-size:var(--h5-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
+.body h6 { font-size:var(--h6-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
 
 .body ul, .body ol {
   margin: 24pt 0pt 24pt 0pt;
@@ -127,14 +180,14 @@ header p.author {
 }
 
 .body li {
-  margin: 16pt 0pt 16pt 0pt;
+  margin: 14pt 0pt 14pt 0pt;
 }
 
 .fig {
   text-align: center;
   display: block;
   margin: 24pt 0pt 24pt 0pt;
-  font-size: 36pt;
+  font-size: var(--figure-font-size);
   width: 100%;
 }
 
@@ -172,11 +225,15 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-a:link:after, a:visited:after {
-  aria-hidden: true;
-  content: '\f35d';
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  margin-left: 0.2em;
-  margin-right: 0.2em;
+@media only screen {
+
+  a:link:after, a:visited:after {
+    aria-hidden: true;
+    content: '\f35d';
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+
 }
