@@ -12,7 +12,7 @@ author:
 :::
 
 ::: {.acknowledgements}
-We're thankful to the Barbara Peterson Ruhlman '54 Fund for Interdisciplinary Studies and the Mount Holyoake LYNK program for supporting this project.
+We're thankful to the Barbara Peterson Ruhlman '54 Fund for Interdisciplinary Studies and the Mount Holyoke LYNK program for supporting this project.
 :::
 
 ::::: {.body}
