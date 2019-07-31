@@ -5,9 +5,10 @@ mcm.html: mcm.md sections/*
 		sections/intro.md \
 		sections/colonialism.md \
 		sections/mechanics.md \
-		sections/monsters.md \
-		sections/terrain.md \
 		sections/accumulation.md \
+		sections/terrain.md \
+		sections/monsters.md \
+		sections/villagers.md \
 		sections/incentives.md \
 		sections/conclusion.md \
 	  --output=$@

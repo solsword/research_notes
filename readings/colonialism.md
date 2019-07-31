@@ -65,6 +65,8 @@
 
 * [Pleasure of Exploration and Colonial Mastery in Civilization III Play the World](pdfs/pleasure_of_exploration.pdf) - 2003 article on colonialism in Civ III that covers a lot of the same ground we propose to explore in terms of analysis, but without such direct reference to mechanics or any technical component.
 
+* ["You Have Unleashed a Horde of Barbarians!:" Fighting Indians, Playing Games, Forming Disciplines](https://muse.jhu.edu/article/37854) - Thorough (but not fully mechanics-oriented) analysis of how colonialism manifests in the Civilization series.
+
 * [Postcolonial Playgrounds: Games as postcolonial cultures](http://www.eludamos.org/index.php/eludamos/article/view/vol4no1-1/145) - Argues that Civ-style games don't exactly reproduce colonial mapping practices. Peter thinks this is a bit too optimistic, but it does point to an important possibility: that games and especially subversive play can in some cases reconfigure some aspects of the colonialist dominant narrative.
 
 ## Examples of Pro-Colonialist Pieces

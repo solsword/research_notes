@@ -13,12 +13,24 @@
   --figure-font-size: 38pt;
   --small-font-size: 36pt;
   --footnote-font-size: 30pt;
+  --acknowledgement-font-size: 28pt;
   --h1-fs: 60pt;
   --h2-fs: 52pt;
   --h3-fs: 48pt;
   --h4-fs: 46pt;
   --h5-fs: 44pt;
   --h6-fs: 42pt;
+}
+
+@page {
+  size: 48in 36in;
+  margin: 0pt;
+}
+
+@media print {
+  body {
+    border: none;
+  }
 }
 
 
@@ -43,7 +55,7 @@
 }
 
 body {
-  margin: 0pt auto 0pt auto;
+  margin: 0pt;
   padding: 1in;
   width: 48in;
   height: 36in;
@@ -57,31 +69,11 @@ body {
   /** /font-family: "Dosis", sans-serif;/**/
   /** /font-family: "Ubuntu", sans-serif;/**/
   /** /font-family: "Candela", sans-serif;/**/
+  position: absolute;
 }
 
 em {
   font-family: "Biolinum", sans-serif;
-}
-
-/*
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Linux Biolinum O", sans-serif;
-}
-*/
-
-@page {
-  size: 48in 36in;
-  margin: 0pt;
-}
-
-@media print {
-  body {
-    border: none;
-  }
-}
-
-.frame {
-
 }
 
 header {
@@ -103,6 +95,40 @@ header p.author {
   padding: 0pt;
 }
 
+.logo {
+  position: absolute;
+  left: 1in;
+  top: 1in;
+  width: 6.5in;
+  height: 4in;
+  padding: 0.25in;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  align-items: top;
+}
+
+.logo img {
+  width: 3.5in;
+}
+
+.acknowledgements {
+  position: absolute;
+  right: 1in;
+  top: 1in;
+  width: 6.5in;
+  height: 4in;
+  padding: 0.5in;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--acknowledgement-font-size);
+  line-height: 115%;
+}
+
+.acknowledgements p {
+  margin: 0pt;
+}
+
 .body {
   width: 100%;
   margin: 0pt;
@@ -115,6 +141,7 @@ header p.author {
   font-size: var(--text-font-size);
   line-height: 120%;
   text-align: justify;
+  position: relative;
 }
 
 .smaller {
@@ -216,7 +243,7 @@ header p.author {
 
 .doublewide {
   display: block;
-  width: 200%;
+  width: 201.5%;
 }
 
 a:link, a:visited {

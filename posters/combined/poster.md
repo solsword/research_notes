@@ -7,6 +7,14 @@ author:
 - Peter Mawhorter
 ...
 
+::: {.logo}
+![The Wellesley College Logo](Wellesley_logo_280.svg)\ 
+:::
+
+::: {.acknowledgements}
+We're thankful to the Barbara Peterson Ruhlman '54 Fund for Interdisciplinary Studies and the Mount Holyoake LYNK program for supporting this project.
+:::
+
 ::::: {.body}
 
 ::: {.col}

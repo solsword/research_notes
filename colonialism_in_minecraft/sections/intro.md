@@ -1,14 +1,14 @@
 ## Introduction
 
 Colonialism is a perspective which either explicitly or implicitly justifies and valorizes colonial domination.
-Especially in places where colonial domination is ongoing, such as North America, colonialism's justificatory function is an important part of societies that want to see themselves as just despite their manifestly unjust relationships with the original inhabitants of the land that they occupy [@TODO].
-Accordingly, such societies produce and consume media which serve the societal function of promoting and teaching colonialism.
-Besides textbooks [@TODO], novels, [e.g., @TODO; @TODO; @TODO], and movies [@TODO], games can also serve this purpose, communicating colonialist values and narratives. 
+Especially in places where colonial domination is ongoing, such as North America, colonialism's justificatory function is an important part of societies that want to see themselves as just despite their manifestly unjust relationships with the original inhabitants of the land that they occupy.
+Accordingly, such societies produce and consume media which serve the societal function of promoting and teaching colonialism [@churchill1992fantasies, p. 1, @kestila2017educational].
+Besides textbooks, novels, and movies, games can also serve this purpose, communicating colonialist values and narratives [e.g., @magnet2006playing].
 
 As interactive art, games are an interesting medium with respect to colonialism because game mechanics can convey implicit messages about how the world works.
-This is the notion of procedural rhetoric [@TODO].
+This is the notion of procedural rhetoric [@bogost2007persuasive].
 The rhetorical goals of colonialism (justification and valorization of colonial domination) can potentially be furthered directly by game mechanics, without any overt pro-colonialism messaging being present.
-So for example, while a game like *Civilization* involves both overtly colonialist narrative messages and thematic elements [@TODO], a game lacking either could still have colonialist messages embedded in its mechanics, because mechanics establish truths about the virtual world of a game that become implicit statements about what is true in the real world [@TODO].
+So for example, while a game like *Civilization* involves both overtly colonialist narrative messages and thematic elements [@douglas2002you], a game lacking either could still have colonialist messages embedded in its mechanics, because mechanics establish truths about the virtual world of a game that become implicit statements about what is true in the real world [@treanor2013investigating, p. 5].
 Of course, players do not necessarily receive these messages uncritically [@TODO Critical Play], nor is it true that in-game messages translate directly to beliefs about the real world [@TODO on violence].
 But such implicit messages can serve rhetorical purposes, and they seem an especially convenient mechanism for delivering the messages of colonialism, which are, when stated directly, fairly abhorrent, but which can seem innocuous when presented indirectly [@TODO: cite?]TODO: footnote here?.
 
