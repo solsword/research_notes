@@ -9,5 +9,6 @@ keywords: [colonialism, Minecraft, TODO]
 abstract: |
  TODO: Write the abstract...
 bibliography: refs.bib
+link-citations: true
 # The Makefile specifies the order of section files from the sections/ folder.
 ...

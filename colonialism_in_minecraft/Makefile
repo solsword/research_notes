@@ -1,10 +1,11 @@
-mcm.html: mcm.md sections/*
+mcm.html: mcm.md refs.bib sections/*
 	pandoc --standalone \
 		--include-in-header=../head.html \
+		--filter pandoc-citeproc \
 		mcm.md \
 		sections/intro.md \
-		sections/colonialism.md \
 		sections/mechanics.md \
+		sections/colonialism.md \
 		sections/accumulation.md \
 		sections/terrain.md \
 		sections/monsters.md \
