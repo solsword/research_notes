@@ -1,9 +1,7 @@
 ---
-title: Title Goes Here
+title: Planet Universe!: A Java Game
 author:
-- Peter Mawhorter
-- Author 2
-- Author 3
+- Christine Lam
 ...
 
 ::::: {.body}
