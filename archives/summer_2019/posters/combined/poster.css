@@ -1,0 +1,266 @@
+:root {
+  /* sky-sun colors */
+  --main-color: #adf;
+  --main-darker: #8cd;
+  --main-faded: #bef;
+  --alt-color: #ffa;
+  --alt-darker: #dd8;
+  --alt-faded: #ffc;
+  /* Linux Biolinum O font sizes */
+  --title-font-size: 120pt;
+  --author-font-size: 72pt;
+  --text-font-size: 40pt;
+  --figure-font-size: 38pt;
+  --small-font-size: 36pt;
+  --footnote-font-size: 30pt;
+  --acknowledgement-font-size: 28pt;
+  --h1-fs: 60pt;
+  --h2-fs: 52pt;
+  --h3-fs: 48pt;
+  --h4-fs: 46pt;
+  --h5-fs: 44pt;
+  --h6-fs: 42pt;
+}
+
+@page {
+  size: 48in 36in;
+  margin: 0pt;
+}
+
+@media print {
+  body {
+    border: none;
+  }
+}
+
+
+/* Force real italics (fixes printing issue but... T_T) */
+@font-face {
+  font-family: "Biolinum";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Linux Biolinum O'), url('LinBiolinum_R.otf');
+}
+@font-face {
+  font-family: "Biolinum";
+  font-style: normal;
+  font-weight: 700;
+  src: local('Linux Biolinum O Bold'), url('LinBiolinum_RB.otf');
+}
+@font-face {
+  font-family: "Biolinum";
+  font-style: italic;
+  font-weight: 400;
+  src: local('Linux Biolinum O Italic'), url('LinBiolinum_RI.otf');
+}
+
+body {
+  margin: 0pt;
+  padding: 1in;
+  width: 48in;
+  height: 36in;
+  border: 2pt dotted black;
+  box-sizing: border-box;
+  /*box-sizing: border-box;*/
+  display: flex;
+  flex-flow: column nowrap;
+  /* We considered a few fonts but settled on this one */
+  /**/font-family: "Biolinum", sans-serif;/**/
+  /** /font-family: "Dosis", sans-serif;/**/
+  /** /font-family: "Ubuntu", sans-serif;/**/
+  /** /font-family: "Candela", sans-serif;/**/
+  position: absolute;
+}
+
+em {
+  font-family: "Biolinum", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 0.5in;
+  flex-grow: 0;
+}
+
+header .title {
+  font-size: var(--title-font-size);
+  margin: 0pt 0pt 16pt 0pt;
+  padding: 0pt;
+}
+
+header p.author {
+  font-size: var(--author-font-size);
+  display: inline-block;
+  margin: 0pt 30pt 0pt 30pt;
+  padding: 0pt;
+}
+
+.logo {
+  position: absolute;
+  left: 1in;
+  top: 1in;
+  width: 6.5in;
+  height: 4in;
+  padding: 0.25in;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  align-items: top;
+}
+
+.logo img {
+  width: 3.5in;
+}
+
+.acknowledgements {
+  position: absolute;
+  right: 1in;
+  top: 1in;
+  width: 6.5in;
+  height: 4in;
+  padding: 0.5in;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--acknowledgement-font-size);
+  line-height: 115%;
+}
+
+.acknowledgements p {
+  margin: 0pt;
+}
+
+.body {
+  width: 100%;
+  margin: 0pt;
+  padding: 0pt;
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+  font-size: var(--text-font-size);
+  line-height: 120%;
+  text-align: justify;
+  position: relative;
+}
+
+.smaller {
+  font-size: var(--small-font-size);
+}
+
+.footnote {
+  font-size: var(--footnote-font-size);
+  position: absolute;
+  left: 0pt;
+  bottom: 0pt;
+  padding: 0pt 0.5in 0pt 0.5in;
+  padding-left: calc(0.5in + 0.5em);
+  text-indent: -0.5em;
+  line-height: 115%;
+}
+
+.body .footnote>p {
+  margin-bottom: 4pt;
+}
+
+.body>div {
+  padding: 0pt 0.5in 0.5in 0.5in;
+  margin: 0pt;
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-basis: 1pt;
+}
+
+.col {
+  position: relative; /* set up containing block for interior elements */
+}
+
+/*
+.body>div:first-child {
+  border-right: 4pt solid black;
+}
+
+.body>div:last-child {
+  border-left: 4pt solid black;
+}
+*/
+
+.body>div p {
+  margin-top: 0pt;
+  margin-bottom: 24pt;
+}
+
+.body h1 { font-size:var(--h1-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+.body h2 { font-size:var(--h2-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+.body h3 { font-size:var(--h3-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+.body h4 { font-size:var(--h4-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+.body h5 { font-size:var(--h5-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
+.body h6 { font-size:var(--h6-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
+
+.body ul, .body ol {
+  margin: 24pt 0pt 24pt 0pt;
+  padding-left: 56pt;
+}
+
+.body ul ul, .body ol ol, .body ul ol, .body ol ul {
+  margin: 0pt;
+}
+
+.body li {
+  margin: 14pt 0pt 14pt 0pt;
+}
+
+.fig {
+  text-align: center;
+  display: block;
+  margin: 24pt 0pt 24pt 0pt;
+  font-size: var(--figure-font-size);
+  width: 100%;
+}
+
+.fig img {
+  width: 48%;
+  display: inline;
+}
+
+.ragged {
+  text-align: left;
+}
+
+.section {
+  border-radius: 24pt;
+  padding: 24pt;
+  background-color: var(--main-color);
+  border-bottom: 8pt solid var(--main-darker);
+  border-right: 8pt solid var(--main-darker);
+}
+
+.section.alt {
+  background-color: var(--alt-color);
+  border-bottom: 8pt solid var(--alt-darker);
+  border-right: 8pt solid var(--alt-darker);
+}
+
+.doublewide {
+  display: block;
+  width: 201.5%;
+}
+
+a:link, a:visited {
+  color: #008;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen {
+
+  a:link:after, a:visited:after {
+    aria-hidden: true;
+    content: '\f35d';
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+
+}
