@@ -6,6 +6,8 @@ Shared public repository for research notes, readings, and similar material.
 
 * [Slack Channel](https://wellesley-expressive.slack.com)
 * [Trello Board](https://trello.com/b/tmlGlygD/summer-research-2020)
+* [Anarchy Github](https://github.com/solsword/anarchy/)
+* [Words Github](https://github.com/solsword/words/)
 
 ### Pages
 
