@@ -1,5 +1,7 @@
 Try adding some text to this file to get a feel for how git works.
 
+Peter's change!
+
 
 Hi, my name is Kat
 
