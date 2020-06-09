@@ -12,7 +12,7 @@ Shared public repository for research notes, readings, and similar material.
 ### Pages
 
 * [Readings](readings/)
-* [Meeting Notes](meeting_notes/)
+* [Meeting Notes](notes.html)
 
 ## Tutorials/Info
 
