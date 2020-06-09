@@ -1,10 +1,13 @@
 Try adding some text to this file to get a feel for how git works.
 
+
 Hi, my name is Kat
 
 Hi this is Anastacia
 
 Hi, this is Peter.
+
+Hello, this is Liz Huang
 
 Another change.
 
