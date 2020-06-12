@@ -34,36 +34,40 @@
 function enable_compare_demo() {
     // Grab the div that we want to work with
     let canvas = document.getElementById("compare_demo");
-
     let ctx = canvas.getContext("2d");
 
     ctx.beginPath();
     ctx.arc(95, 50, 40, 0, 2 * Math.PI);
     ctx.stroke();
 
-    let rect_size = 10;
+   // let rect_size = 10;
 
-    let colors = ["white", "red", "blue"];
+    let colors = ["orange", "red", "blue"];
 
     // Draws rectangle grid at the given x/y location using color values drawn
     // repeatedly from the given RNG function. That function must return a number
     // that's a valid index into the colors array.
 
-
-    function draw_result(where, rng) {
+    function draw_result(where, rng){
       for (let i = 0; i < 100; ++i) {
-        let r = rng()
-        let x = i % 10;
-        let y = Math.floor(i/10);
-        let cx = where[0] + rect_size/2 + x * rect_size;
-        let cy = where[1] + rect_size/2 + y * rect_size;
-        ctx.fillStyle = colors[r];
-        ctx.fillRect(cx, cy, rect_size, rect_size);
-        ctx.strokeWidth = 0.5;
-        ctx.strokeStyle = "black";
-        ctx.strokeRect(cx, cy, rect_size, rect_size);
+       let r = rng()
       }
     }
+
+    // function draw_result(where, rng) {
+    //   for (let i = 0; i < 100; ++i) {
+    //     let r = rng()
+    //     let x = i % 10;
+    //     let y = Math.floor(i/10);
+    //     let cx = where[0] + rect_size/2 + x * rect_size;
+    //     let cy = where[1] + rect_size/2 + y * rect_size;
+    //     ctx.fillStyle = colors[r];
+    //     ctx.fillRect(cx, cy, rect_size, rect_size);
+    //     ctx.strokeWidth = 0.5;
+    //     ctx.strokeStyle = "black";
+    //     ctx.strokeRect(cx, cy, rect_size, rect_size);
+    //   }
+    // }
 
     // Creates RNG that spits out 0, 1, or 2 independently with 90%, 8%, and 2%
     // probabilities.
@@ -164,8 +168,7 @@ function enable_compare_demo() {
   }
 
   // Run all this stuff:
-enable_compare_demo();
-
+  enable_compare_demo();
 </script>
 </body>
 </html>
