@@ -1,5 +1,27 @@
 # Meeting Notes Summer 2020
 
+## 2020-6-16 (first words game meeting)
+
+- Goals for this meeting:
+    1. Brainstorm goals: what are we working on?
+    2. Decide on pairs.
+    3. Translate goals into Trello tasks.
+        * Top level will be at the level of (abstract) mechanics, like
+          "Create a light/shadow mechanic."
+        * One or more design subgoals for each mechanic.
+        * Break things down into when/then statements (concrete
+          mechanics/rules).
+        * Break rules down into data structures, internal algorithms, and
+          response functions.
+        * As we work, create new Trello tasks for each sub-goal that comes into
+          view.
+    4. Create branches for each feature, and start working towards each
+       goal.
+        * Write code for the data structures, internal algorithms, and
+          response function goals.
+        * Move Trello tasks towards completion.
+- Goals for this week and next: dictated by Trello.
+
 ## 2020-6-8 (overview meeting)
 
 - Plan for the summer:
