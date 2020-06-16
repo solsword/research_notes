@@ -1,5 +1,16 @@
 # Meeting Notes Summer 2020
 
+## 2020-6-16 (high-level goals resolution)
+
+- Goals for this meeting:
+   * For each team, decide what your high-level goal is.
+       - Analyze feasibility.
+       - Start breaking that down into subgoals.
+- Goals after that: create a design document for your chosen high-level
+  goal: just a short text document (although you can include pictures if
+  you want) briefly describing how the stuff that you're working on will
+  work when it's done.
+
 ## 2020-6-16 (first words game meeting)
 
 - Goals for this meeting:
