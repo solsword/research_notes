@@ -1,5 +1,53 @@
 # Meeting Notes Summer 2020
 
+## 2020-6-16 (discussion of procedural rhetoric and newsgames)
+
+- It's maybe problematic if people play a game like Kabul Kaboom to enjoy
+  it.
+- Things can go really sideways with the message.
+- Depends on the player themselves.
+- Going through the motions can be more persuasive than someone telling
+  you something.
+- Coming to a conclusion yourself is powerful.
+- It can be very easy to miss the point of a game.
+- Different mixes of rhetorical strategies.
+- Death of the author.
+- Talked about Brenda Braithwaite's Train.
+- Procedural rhetoric in games you know?
+    * Plague Inc. about virus spreads. Added warnings to the game to talk
+      about the current situation.
+    * Berlin conference game in European history class. Go split up
+      Africa. Best way to win was by teaming up with other countries and
+      forming an alliance.
+    * Peter also played a game in elementary school about colonizing
+      America.
+    * Risk is another similar example. Some territories are worth more
+      than others...
+        * Resentment + teaming up + a lot of things.
+    * Exploding kittens (card game where you draw cards that remove you
+      from the game, and play cards to defuse them).
+        * Frustrating + luck-based.
+    * Chess: pawns get to upgrade at the end.
+    * 2 lions, 20 sheep, lions need to each sheep, while sheep need to
+      avoid isolation and block the lions.
+        * If you stay together 
+- Personal/social growth catalyzed by gameplay...
+- Chess meanings:
+    * War, pawns as expendable guards
+    * Promotion at end of board is a sacrifice on the pawn's side of
+      things.
+    * Chinese chess is maybe on step less abstract than normal chess.
+    * Players try to distract each other, which is also how things work
+      in the real world.
+- Interesting to have to think about accidental implications.
+- These readings + conversations give a different perspective on games +
+  the game that we're building as well.
+- Why not make the news/rhetoric aspect of the game more obvious?
+    * Maybe to convince more subtly?
+- More evidence to tell relatives that playing games is beneficial/not a
+  waste of time.
+
+
 ## 2020-6-16 (high-level goals resolution)
 
 - Goals for this meeting:
