@@ -1,5 +1,32 @@
 # Meeting Notes Summer 2020
 
+## 2020-7-7 (discussion of operational logics)
+
+- Definitions of "operational logics":
+    * How the player makes meaning out of the abstract things going on in
+      the game.
+    * The connections you have to make to get a message out of the
+      mechanics of a game. More than just the rules of the game.
+    * A combination of different designs & mechanics + the way a user
+      interacts creates an experience that conveys something to the
+      player.
+    * The specific procedural rhetorical strategies the designer users to
+      affect the interactive experience of the player in an attempt to
+      convey their message.
+
+- Can operational logics be deployed in a novel (not a
+  choose-your-own-adventure)?
+
+- Maybe in some ways, but maybe not...?
+- Maybe there's a continuum between completely-determined stories all the
+  way to games?
+
+- Formatting of a novel, like dates placed throughout the text, can maybe
+  be kind of logic?
+- Story build from newspaper clippings & fliers & stuff about activities
+  in a single house, with lots of room to interpret the inner lives of
+  the characters.
+
 ## 2020-6-16 (discussion of procedural rhetoric and newsgames)
 
 - It's maybe problematic if people play a game like Kabul Kaboom to enjoy
