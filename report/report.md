@@ -3,10 +3,11 @@ title: Words Game Report
 author: Katherine Avila, Anastacia Castro, Elizabeth Huang, Farida Tahiry, and Peter Mawhorter
 date: Summer 2020
 ...
+
 <nav>
-[Report Summary](/~expressive/research_notes/report/report.html)
-[Sprint 1 Features](/~expressive/research_notes/report/sprint1/sprint1.html)
-[Sprint 2 Features](/~expressive/research_notes/report/sprint2/sprint2.html)
+[Report Summary](report.html)
+[Sprint 1 Features](sprint1/sprint1.html)
+[Sprint 2 Features](sprint2/sprint2.html)
 [Words Game](https://solsword.github.io/words/)
 [Words Github Page](https://github.com/solsword/words/)
 [Anarchy Library](https://solsword.github.io/anarchy/)
@@ -49,12 +50,14 @@ working on mobile at the moment) at:
 In our first sprint, we added a quiz mode that uses a custom
 word list to create a board, as well as a "backpack" menu that
 allows extra letters to be used along with letters from the board
-to spell out words. [More info on the sprint 1 features.](TODO)
+to spell out words. [More info on the sprint 1
+features.](sprint1/sprint1.html)
 
 In our second sprint, we added a hint feature that allows the user
 to look up a word and get a hint as to where that word appears in
 the current view, as well as an avatar system to represent the
-player within the game. [More info on the sprint 2 features.](TODO)
+player within the game. [More info on the sprint 2
+features.](sprint2/sprint2.html)
 
 Although the game still needs several big features like player
 advancement to be ready for an initial release, we made good

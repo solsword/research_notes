@@ -1,4 +1,21 @@
-# Liz + Kat's markdown file covering sprint 2
+---
+title: Words Game Sprint 2
+author: Katherine Avila, Anastacia Castro, Elizabeth Huang, Farida Tahiry, and Peter Mawhorter
+date: Summer 2020
+...
+
+<nav>
+[Report Summary](../report.html)
+[Sprint 1 Features](../sprint1/sprint1.html)
+[Sprint 2 Features](sprint2.html)
+[Words Game](https://solsword.github.io/words/)
+[Words Github Page](https://github.com/solsword/words/)
+[Anarchy Library](https://solsword.github.io/anarchy/)
+</nav>
+
+::::: {.body}
+
+::: {.col}
 
 ## HINT FEATURE
 
@@ -14,6 +31,10 @@ The hint feature creates a text dialog where the user can type in a sequence of 
 
 We hope that this feature will later be modified to limit the number of hints the user can utilize.
 
+:::
+
+::: {.col}
+
 ## AVATAR FEATURE
 
 ### Avatar About
@@ -27,3 +48,7 @@ The avatar feature gives the player a sense of connection to the game by allowin
 ### Future Work on Avatars
 
 We hope that in the future the avatar feature will be modified such that players will be able to provide their own avatar drawing and animation or otherwise customize their avatar.
+
+:::
+
+:::::
