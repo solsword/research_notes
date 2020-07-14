@@ -3,6 +3,18 @@ title: Words Game Report
 author: Katherine Avila, Anastacia Castro, Elizabeth Huang, Farida Tahiry, and Peter Mawhorter
 date: Summer 2020
 ...
+<nav>
+[Report Summary](/~expressive/research_notes/report/report.html)
+[Sprint 1 Features](/~expressive/research_notes/report/sprint1/sprint1.html)
+[Sprint 2 Features](/~expressive/research_notes/report/sprint2/sprint2.html)
+[Words Game](https://solsword.github.io/words/)
+[Words Github Page](https://github.com/solsword/words/)
+[Anarchy Library](https://solsword.github.io/anarchy/)
+</nav>
+
+::::: {.body}
+
+::: {.col}
 
 “Words" is a word-finding game that uses incremental and
 reversible [pseudo-random number
@@ -64,3 +76,7 @@ at the following links:
 * [Galaxies demo](https://solsword.github.io/anarchy/js/galaxies.html)
 * [Cards demo](https://solsword.github.io/anarchy/js/card_deck.html)
 * [Random paths demo](https://solsword.github.io/anarchy/js/random_path.html)
+
+:::
+
+:::::
