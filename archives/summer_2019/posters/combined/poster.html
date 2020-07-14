@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Christine Lam" />
+  <meta name="author" content="Hannah May" />
+  <meta name="author" content="Ohana Turbak" />
+  <meta name="author" content="Peter Mawhorter" />
+  <title>The Mechanics of Colonialism in Minecraft</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style>
+  :root {
+    /* sky-sun colors */
+    --main-color: #adf;
+    --main-darker: #8cd;
+    --main-faded: #bef;
+    --alt-color: #ffa;
+    --alt-darker: #dd8;
+    --alt-faded: #ffc;
+    /* Linux Biolinum O font sizes */
+    --title-font-size: 120pt;
+    --author-font-size: 72pt;
+    --text-font-size: 40pt;
+    --figure-font-size: 38pt;
+    --small-font-size: 36pt;
+    --footnote-font-size: 30pt;
+    --acknowledgement-font-size: 28pt;
+    --h1-fs: 60pt;
+    --h2-fs: 52pt;
+    --h3-fs: 48pt;
+    --h4-fs: 46pt;
+    --h5-fs: 44pt;
+    --h6-fs: 42pt;
+  }
+  
+  @page {
+    size: 48in 36in;
+    margin: 0pt;
+  }
+  
+  @media print {
+    body {
+      border: none;
+    }
+  }
+  
+  
+  /* Force real italics (fixes printing issue but... T_T) */
+  @font-face {
+    font-family: "Biolinum";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Linux Biolinum O'), url('LinBiolinum_R.otf');
+  }
+  @font-face {
+    font-family: "Biolinum";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Linux Biolinum O Bold'), url('LinBiolinum_RB.otf');
+  }
+  @font-face {
+    font-family: "Biolinum";
+    font-style: italic;
+    font-weight: 400;
+    src: local('Linux Biolinum O Italic'), url('LinBiolinum_RI.otf');
+  }
+  
+  body {
+    margin: 0pt;
+    padding: 1in;
+    width: 48in;
+    height: 36in;
+    border: 2pt dotted black;
+    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    display: flex;
+    flex-flow: column nowrap;
+    /* We considered a few fonts but settled on this one */
+    /**/font-family: "Biolinum", sans-serif;/**/
+    /** /font-family: "Dosis", sans-serif;/**/
+    /** /font-family: "Ubuntu", sans-serif;/**/
+    /** /font-family: "Candela", sans-serif;/**/
+    position: absolute;
+  }
+  
+  em {
+    font-family: "Biolinum", sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 0.5in;
+    flex-grow: 0;
+  }
+  
+  header .title {
+    font-size: var(--title-font-size);
+    margin: 0pt 0pt 16pt 0pt;
+    padding: 0pt;
+  }
+  
+  header p.author {
+    font-size: var(--author-font-size);
+    display: inline-block;
+    margin: 0pt 30pt 0pt 30pt;
+    padding: 0pt;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 1in;
+    top: 1in;
+    width: 6.5in;
+    height: 4in;
+    padding: 0.25in;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    align-items: top;
+  }
+  
+  .logo img {
+    width: 3.5in;
+  }
+  
+  .acknowledgements {
+    position: absolute;
+    right: 1in;
+    top: 1in;
+    width: 6.5in;
+    height: 4in;
+    padding: 0.5in;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: var(--acknowledgement-font-size);
+    line-height: 115%;
+  }
+  
+  .acknowledgements p {
+    margin: 0pt;
+  }
+  
+  .body {
+    width: 100%;
+    margin: 0pt;
+    padding: 0pt;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    font-size: var(--text-font-size);
+    line-height: 120%;
+    text-align: justify;
+    position: relative;
+  }
+  
+  .smaller {
+    font-size: var(--small-font-size);
+  }
+  
+  .footnote {
+    font-size: var(--footnote-font-size);
+    position: absolute;
+    left: 0pt;
+    bottom: 0pt;
+    padding: 0pt 0.5in 0pt 0.5in;
+    padding-left: calc(0.5in + 0.5em);
+    text-indent: -0.5em;
+    line-height: 115%;
+  }
+  
+  .body .footnote>p {
+    margin-bottom: 4pt;
+  }
+  
+  .body>div {
+    padding: 0pt 0.5in 0.5in 0.5in;
+    margin: 0pt;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 1pt;
+  }
+  
+  .col {
+    position: relative; /* set up containing block for interior elements */
+  }
+  
+  /*
+  .body>div:first-child {
+    border-right: 4pt solid black;
+  }
+  
+  .body>div:last-child {
+    border-left: 4pt solid black;
+  }
+  */
+  
+  .body>div p {
+    margin-top: 0pt;
+    margin-bottom: 24pt;
+  }
+  
+  .body h1 { font-size:var(--h1-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+  .body h2 { font-size:var(--h2-fs); font-weight:bold; margin:12pt 0pt 24pt 0pt; }
+  .body h3 { font-size:var(--h3-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+  .body h4 { font-size:var(--h4-fs); font-weight:bold; margin:10pt 0pt 20pt 0pt; }
+  .body h5 { font-size:var(--h5-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
+  .body h6 { font-size:var(--h6-fs); font-weight:bold; margin:8pt 0pt 16pt 0pt; }
+  
+  .body ul, .body ol {
+    margin: 24pt 0pt 24pt 0pt;
+    padding-left: 56pt;
+  }
+  
+  .body ul ul, .body ol ol, .body ul ol, .body ol ul {
+    margin: 0pt;
+  }
+  
+  .body li {
+    margin: 14pt 0pt 14pt 0pt;
+  }
+  
+  .fig {
+    text-align: center;
+    display: block;
+    margin: 24pt 0pt 24pt 0pt;
+    font-size: var(--figure-font-size);
+    width: 100%;
+  }
+  
+  .fig img {
+    width: 48%;
+    display: inline;
+  }
+  
+  .ragged {
+    text-align: left;
+  }
+  
+  .section {
+    border-radius: 24pt;
+    padding: 24pt;
+    background-color: var(--main-color);
+    border-bottom: 8pt solid var(--main-darker);
+    border-right: 8pt solid var(--main-darker);
+  }
+  
+  .section.alt {
+    background-color: var(--alt-color);
+    border-bottom: 8pt solid var(--alt-darker);
+    border-right: 8pt solid var(--alt-darker);
+  }
+  
+  .doublewide {
+    display: block;
+    width: 201.5%;
+  }
+  
+  a:link, a:visited {
+    color: #008;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  @media only screen {
+  
+    a:link:after, a:visited:after {
+      aria-hidden: true;
+      content: '\f35d';
+      display: inline-block;
+      font-family: "Font Awesome 5 Free";
+      margin-left: 0.2em;
+      margin-right: 0.2em;
+    }
+  
+  }
+  </style>
+  <style>
+  /*!
+   * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
+   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+   */
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("webfonts/fa-solid-900.eot");
+    src: url("webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-solid-900.woff2") format("woff2"), url("webfonts/fa-solid-900.woff") format("woff"), url("webfonts/fa-solid-900.ttf") format("truetype"), url("webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">The Mechanics of Colonialism in Minecraft</h1>
+<p class="author">Christine Lam</p>
+<p class="author">Hannah May</p>
+<p class="author">Ohana Turbak</p>
+<p class="author">Peter Mawhorter</p>
+</header>
+<div class="logo">
+<p><img src="Wellesley_logo_280.svg" alt="The Wellesley College Logo" /> </p>
+</div>
+<div class="acknowledgements">
+<p>We’re thankful to the Barbara Peterson Ruhlman ’54 Fund for Interdisciplinary Studies and the Mount Holyoke LYNK program for supporting this project.</p>
+</div>
+<div class="body">
+<div class="col">
+<h1 id="colonialism-and-games" class="section">Colonialism and Games</h1>
+<ul>
+<li>Colonialism seeks to both justify and valorize colonial domination, such as the ongoing domination of Native Americans by the United States of America.</li>
+<li>Popular culture spreads colonialist beliefs.¹</li>
+<li>Games can promote ideologies.²</li>
+<li>Besides their 2D art, text, and sound, games include rules, also known as “mechanics.”</li>
+<li>Rules themselves can communicate messages, including colonialist messages.</li>
+</ul>
+<div class="fig">
+<p><img src="screenshots/title_screen.png" style="width:80.0%" alt="Screenshot of the Minecraft tile screen displaying the logo and buttons for “Singleplayer”, “Multiplayer”, “Minecraft Realms”, “Options”, and “Quit Game”" /> </p>
+<p>The Minecraft title screen.</p>
+</div>
+<h1 id="minecraft" class="section alt">Minecraft</h1>
+<ul>
+<li>The best-selling game of all time (&gt;176 million copies).</li>
+<li>A blocky world where any block can be mined.
+<ul>
+<li>Craft blocks into tools and other blocks.</li>
+<li>Blocks can be placed to build things.</li>
+</ul></li>
+<li>Generated terrain includes various climates, underground caves, and “natural resources” like ore.</li>
+<li>Populated by passive animals, aggressive monsters, benign “villagers,” and evil “illagers.”
+<ul>
+<li>Animals include livestock, pets, and wild animals.</li>
+<li>Monsters appear at night and attack on sight.</li>
+<li>Villagers live in villages and can be traded with.</li>
+<li>Illagers appear randomly and attack immediately.</li>
+</ul></li>
+</ul>
+<div class="footnote">
+<p>¹ Churchill, Ward, <em>Fantasies of the Master Race</em> edited by M. Annette Jaimes. Common Courage Press, 1992.</p>
+<p>² Bogost, Ian, <em>Persuasive Games</em>. MIT Press, 2007.</p>
+</div>
+</div>
+<div class="col">
+<h1 id="colonialist-myths" class="section alt doublewide">Colonialist Myths</h1>
+<ul>
+<li>Game mechanics dictate what is true in the game world, and imply things about the real world.</li>
+<li>Several Minecraft mechanics support colonialist myths which help justify past and present colonial domination.³</li>
+</ul>
+<h2 id="accumulating-blocks">Accumulating Blocks</h2>
+<ul>
+<li>Ore is finite, but can always find more by moving on.</li>
+<li>No large-scale consequences of extraction.
+<ul>
+<li><em>Reinforces myth that ‘natural resources’ are plentiful and extracting them is harmless.</em></li>
+</ul></li>
+<li>Mass extraction is made easy due to enormous inventory.</li>
+</ul>
+<h2 id="terrain-and-exploration">Terrain and Exploration</h2>
+<ul>
+<li>Most generated terrain is uninhabited.
+<ul>
+<li><em>Reinforces myth of the ‘wild/empty frontier.’</em></li>
+</ul></li>
+<li>Villagers don’t use land outside of their small villages.</li>
+<li>Maps position player as discoverer.
+<ul>
+<li><em>Reinforces myth of Western ‘discovery’ of Indigenous territories as creation of new knowledge.</em></li>
+</ul></li>
+</ul>
+<div class="fig" style="margin-top: 40pt;">
+<p><img src="screenshots/mining_coal.png" alt="Mining coal blocks." />  <img src="screenshots/map_with_voyage.png" alt="A map being filled in." />  <img src="screenshots/skeleton_attacking.png" alt="A skeleton monster." />  <img src="screenshots/villagers.png" alt="Two villagers in a village." /> </p>
+<p>Clockwise from top left: 1. Mining coal; 2. A map being filled in;<br/> 3. A pair of villagers; 4. A skeleton monster.</p>
+</div>
+<div class="footnote">
+<p>³ Dooghan, Daniel, <em>Digital Conquerors: Minecraft and the Apologetics of Neoliberalism</em>. In <em>Games and Culture</em> v. 14, 2016.</p>
+</div>
+</div>
+<div class="col">
+<p> </p>
+<p> </p>
+<h2 id="monsters-and-illagers">Monsters and Illagers</h2>
+<ul>
+<li>Intelligent, but unconditionally attack player on sight.</li>
+<li>Implies some creatures are inherently/irredeemably evil.
+<ul>
+<li><em>Reinforces myth that morality/behavior is biologically determined, and justifies aggression as self-defense.</em></li>
+</ul></li>
+</ul>
+<h2 id="villagers">Villagers</h2>
+<ul>
+<li>No combat, building, or crafting ability (despite living in constructed dwellings).</li>
+<li>Not shown as builders of advanced ruins like shipwrecks.
+<ul>
+<li><em>Reinforces myth that Natives had no technology.</em></li>
+</ul></li>
+<li>Depend on player for defense against monsters.
+<ul>
+<li>Ironically, monsters are only attracted by player.</li>
+<li>Sets up player as “savior,” villagers as beneficiaries.</li>
+<li><em>Reinforces myth that Natives were helpless and therefore benefited from colonialism.</em></li>
+</ul></li>
+</ul>
+<h2 id="advancements">Advancements</h2>
+<ul>
+<li>Tutorial &amp; achievement system rewards certain actions.
+<ul>
+<li><em>Incentivizes colonialist activities (even killing villagers).</em></li>
+</ul></li>
+<li>Provides an overarching narrative of progress.</li>
+</ul>
+<h1 id="impacts" class="section">Impacts</h1>
+<ul>
+<li>Explicitly colonialist fantasies (<em>“…who doesn’t want to be all barbarian and destroy every village[?]”</em> from <a href="https://minecraft.gamepedia.com/Tutorials/Colonizing">the Minecraft Wiki tutorial on Colonizing</a>).</li>
+<li>Colonialist myths in education (for example, a <a href="https://education.minecraft.net/lessons/british-colonisation/">“British Colonisation” lesson</a> to teach about <em>“what the settlers went through”</em> in Australia on the <a href="https://education.minecraft.net/">Minecraft Education Edition site</a>).</li>
+<li>In addition to obscuring and distorting colonialist histories, these myths cause direct psychological harm.⁴</li>
+<li>Similar mechanics exist in many game genres, because mechanics are often uncritically copied between games.</li>
+</ul>
+<div class="footnote">
+<p>⁴ Stegman, Erik and Phillips, Victoria F., <em>Missing the Point: The Real Impact of Native Mascots and Team Names on American Indian and Alaska Native Youth</em>. Center for American Progress, July 2014.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
