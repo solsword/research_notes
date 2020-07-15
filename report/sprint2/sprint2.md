@@ -17,19 +17,22 @@ date: Summer 2020
 
 ::: {.col}
 
-## HINT FEATURE
+# HINT FEATURE
 
-### Hint About
+## Hint About
 
-The hint feature creates a text dialog where the user can type in a sequence of letters to look for in the current screen. If that sequence of letters is present, the first letter of each copy of that letter sequence is highlighted. The mechanisms involved in this feature include a text input element within the dialog that allows the user to specify a word to look for, and a way to search for word matches based on text entered by the user.
+The hint feature is a menu button that the user can click on and see if the word they typed in is in the current screen they are on. If the word is present, the screen is highlighted to show where the word(s) are. The first letter of the word is searched in the current screen, then it checks to see if any of the letters around match the second letter of the word. If it doesn’t, that match is dismissed and if it does, it repeats the search around that new glyph to check for the next letter. Once it has done this to each letter of the word, the animation mechanism highlights where the first glyph of the sequence of the word is and it lasts seconds before it goes away.
 
-### Code
+## Why did we create a hint feature?
+We wanted to create this feature because this was an idea that we discussed when preparing for sprint 1. From experience from word games, we usually get stuck and so wanted a way to help the users if they came across this.
 
-![alt text] (url)
+![Hint GIF](hint.gif)
+
+The animation above shows the how the hint feature works when the user types in the word 'pea'
 
 ### Future Work
 
-We hope that this feature will later be modified to limit the number of hints the user can utilize.
+Right now, the user can use the hint as many times as they want; therefore, we hope to later modify it to limit the number of hints the user can utilize, that way this could be a replacement for a reward. In the future, we hope to explore how to change the way the animation is displayed.
 
 :::
 
@@ -39,11 +42,9 @@ We hope that this feature will later be modified to limit the number of hints th
 
 ### Avatar About
 
-The avatar feature gives the player a sense of connection to the game by allowing them to choose an avatar they would like to have represent them in the game. After the player chooses an avatar (out of the two options we have so far) the chosen avatar is placed onto the board of the game. As the player connects glyphs on the board, the avatar follows the cursor, and when the player matches a word, the avatar plays a jump animation. The mechanisms involved in this feature included designing the avatar options, adding animations, and building a menu to allow the user to choose their avatar, as well as the system for displaying the avatar in the game and for triggering avatar animations.
+![alt text](url)
+## Why did we create an avatar feature?
 
-### Avatar Code
-
-![alt text] (url)
 
 ### Future Work on Avatars
 
