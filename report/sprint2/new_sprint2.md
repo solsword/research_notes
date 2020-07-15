@@ -42,13 +42,23 @@ Right now, the user can use the hint as many times as they want; therefore, we h
 
 ## Avatar About
 
-The avatar feature allows the player to pick an avatar at the start of the game and will remain on the game board as the player plays the word game. As soon as the game is loaded, an avatar menu will be presented in the center of the web page containing three avatar choices. After the player chooses an avatar, the menu disappears and the avatar will appear at the center of the unlocked tiles. As the player connects and deletes the glyphs they have selected, the avatar will follow along the path. The player can also hover their mouse over the avatar to make it disappear to see the tiles behind it. Once a word is completed, the avatar does a little jump animation at the end.
+The avatar feature allows the player to pick an avatar and it will remain on the game board as the player plays the word game. As soon as the game is loaded, an avatar will appear at the center of the unlocked tiles. There is now an options menu that allows the player to change the avatar that is currently on the board. As the player connects and deletes the glyphs they have selected, the avatar will follow along the path. Once a word is completed, the avatar does a little jump animation at the end.
 
 ## Why did we create an avatar feature?
 
 We wanted to create this feature so that players can be more engaged with the game. An avatar could give a player a sense of connection to the game by seeing a character on the game board. We are also hoping this feature lies the foundation for future characters in the game as well!
 
-![alt](url)
+![Avatar On the Board](avatar_feature.gif)
+
+▴ The avatar follows the glyphs as the player swipes and plays an animation once the word is completed.
+
+![Options Menu](av_menu.gif)
+
+▴ The player has the option to change the random avatar that is placed on the center of the board through the options menu.
+
+## Challenges
+
+A challenge I faced when designing and animating the avatar was learning the SVG format and how to animate for the first time. It took a while to figure how to convert between different files and to finally get it working and presenting on the game. Another challenge was understanding how HTML elements and event handlers work on a web page to accurately place our avatar on the game board.
 
 ### Future Work on Avatars
 

@@ -47,7 +47,7 @@ As the game develops, the Glyphs menu could be made mutable. It should gave the 
 
 ## QUIZ MODE
 
-If you would like to use this feature, we have a game initialized with a demo word list linked <a href="https://solsword.github.io/words/index.html#mode=quiz,words=science`definition%25201~computer`definition%25202~coding`definition%25203~html`definition%25204~css`definition%25205~javascript`definition%25206,domain=English">here</a>. You can also upload your own file into the quiz mode at this link: <a href="../start_quiz.html">Start Quiz</a>.
+If you would like to use this feature, we have a game initialized with a demo word list linked <a href="https://solsword.github.io/words/index.html#mode=quiz,words=science`definition%25201~computer`definition%25202~coding`definition%25203~html`definition%25204~css`definition%25205~javascript`definition%25206,domain=English">here</a>. You can also upload your own file into the quiz mode at this link: <a href="https://solsword.github.io/words/start_quiz.html">Start Quiz</a>.
 
 :::: {.quiz_image_grid}
 ![Above is a screenshot of the "Start Quiz" HTML page. Here, a user can see what format their text needs to be in before selecting their file and the domain it falls under.](start_quiz.JPG)
@@ -82,20 +82,6 @@ The process that computers use to generate random numbers is actually mathematic
 Each seed describes the pattern used to generate the random numbers.
 That is why each time you play the game with the same seed and same set of words, they will end up in the same place.
  
-### Process of Creating Quiz Mode
-
-For reference, HTML, CSS, and JavaScript are the three main programming languages behind every website you see. 
-HTML (Hypertext Markup Language) creates the bare bones of every website. It can be used to add text, images, and videos, among other things, and it differentiates various sections of each website.
-CSS (Cascading Style Sheets) styles the HTML so that it looks more attractive. It can change colors, fonts, and sizes of objects, as well as shape the design in many other ways.
-JavaScript mostly deals with how the user interacts with a webpage. It runs code as you click buttons and scroll around a webpage.
-
-To create our feature, we first had to create an HTML document for the user to upload their word list.
-Then, we used JavaScript to take the input given by the user (the domain and file) and transform it into something that Words could use.
-We decided the best way to do this was by creating a link because it's a simple way to pass information between different websites.
-
-Once the user clicks the link, they get taken to Words which is where we take the information from the link to create a new game. 
-Words already had the capability to create a custom dimension, so once we broke down the information from the URL, we put the words from the given word list into the property of the custom dimension that held its word list.
-
 ### Challenges
 
 One of the first challenges we ran into was figuring out whether to capitalize letters. 
