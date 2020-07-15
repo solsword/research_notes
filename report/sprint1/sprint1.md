@@ -19,8 +19,30 @@ date: Summer 2020
 
 ## GLYPHS MENU
 
-:::
 
+
+### About Glyphs menu 
+
+The Glyphs Menu feature allows the user to complete words using a menu of letters available to the user. On the left of the screen is a menu with five letters in it, if the user is struggling to complete
+a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging thier mouse on the grid and can press on the needed glyph from the menu and they can keep dragging their mouse on the grid.   
+
+![Above is a screenshot of the "Start Quiz" HTML page. Here, a user can see what format their text needs to be in before selecting their file and the domain it falls under.](GM.jpg)
+
+### Process of Creating the Glyphs Menu 
+
+To make the glyphs menu, our group had to make a button menu and save the glyph or letter that was pressed. We also had to allow the user to choose words from an array other than the grid. The word game's code only allowed the user to choose letters from an array of positions on the grid. To make the Glyphs Menu, we allowed the player to choose words from an array other than the position array. The code, then, checks for the index of the array and finds what letter is in that index and returns the letter. 
+
+### Challenges 
+
+The Game Word is designed to be played in many different langauges. One of the biggest questions we were facing was how to make it more avaiable for all langauges.
+The Words game consists of thousands of lines of codes. One of the challanges we faced was working with a huge compile of code.  One of the goals of our supervisor, Peter, was to make us familiar with working on a big compilation of code written previously. 
+
+
+### Future Work
+
+As the game develops, the Glyphs menu could be made mutable. It should gave the user options of adding more letters than just five and once a letter/glyph is selected it should not appear in the menu. However, these are all design questions and whether in the future the developers of the game decide to make these changes.  
+
+:::
 ::: {.col}
 
 ## QUIZ MODE
