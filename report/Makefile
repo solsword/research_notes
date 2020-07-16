@@ -1,7 +1,7 @@
 head.html: report.css
-	echo "<style>" > $@
+	echo '<style>' > $@
 	cat $< >> $@
-	echo "</style>" >> $@
+	echo '</style>' >> $@
 
 %.html: %.md head.html
 	pandoc -s $< --include-in-header="head.html" -o $@
