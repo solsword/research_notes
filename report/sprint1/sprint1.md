@@ -23,7 +23,7 @@ date: Summer 2020
 
 ### About Glyphs Menu 
 
-The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging thier mouse on the grid and can press on the needed glyph from the menu and they can keep dragging their mouse on the grid.   
+The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging thier mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid.   
 
 :::: {.quiz_image_grid}
 ![Above is a screenshot of the "Glyph menu" HTML page. ](GM3.jpg)
