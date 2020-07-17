@@ -53,14 +53,29 @@ nav > a:visited {
     margin: 0pt;
     padding: 8pt;
     text-align: justify;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+    grid-auto-flow: row;
+    align-items: start;
+    grid-gap: 8pt;
+    justify-items: center;
     background-color: #eef;
 }
 
 .body > * {
     max-width: 40em;
-    margin: auto;
+    margin: 4pt auto;
+}
+
+.body > *:only-child {
+    grid-column: 1 / span 2;
+}
+
+@media only screen and (max-width: 50em) {
+    .body {
+        display: block;
+    }
 }
 
 .quiz_image_grid {
@@ -78,9 +93,13 @@ nav > a:visited {
     object-position: 0 0;
 }
 
-@media screen and max-width(480px) {
-    .body {
-        display: block;
-    }
+.figure {
+    text-align: center;
+}
+
+.figure img {
+    display: block;
+    margin: 3pt auto;
+    max-width: 100%;
 }
 </style>
