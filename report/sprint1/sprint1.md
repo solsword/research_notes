@@ -29,10 +29,10 @@ The Glyphs Menu feature allows the user to complete words using a menu of letter
 The screenshots below show how a letter from the menu on the left can be used to add letters as part of a word being matched.
 
 :::: {.quiz_image_grid}
-![Above is a screenshot of the "glyphs menu" HTML page. ](GM3.jpg)
-!["Glyphs menu" HTML page, before choosing a glyph from the glyphs menu ](GM2.jpg)
-!["Glyphs menu" HTML page, after choosing a glyph from the glyphs menu](GM1.jpg)
-![Above is a screenshot of the "glyphs menu" HTML page. It displays the words found in the game](GM.jpg)
+![Above is a screenshot of the "glyphs menu" HTML page. ](GM01.JPG)
+!["Glyphs menu" HTML page, before choosing a glyph from the glyphs menu ](GM02.JPG)
+!["Glyphs menu" HTML page, after choosing a glyph from the glyphs menu](GM03.JPG)
+![Above is a screenshot of the "glyphs menu" HTML page. It displays the words found in the game](GM04.JPG)
 ::::
 
 ### Creating the Glyphs Menu
