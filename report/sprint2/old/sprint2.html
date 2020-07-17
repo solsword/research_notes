@@ -85,6 +85,10 @@
       margin: 4pt auto;
   }
   
+  .body > *:only-child {
+      grid-column: 1 / span 2;
+  }
+  
   @media only screen and (max-width: 50em) {
       .body {
           display: block;
@@ -104,6 +108,16 @@
       max-height: 100%;
       object-fit: cover;
       object-position: 0 0;
+  }
+  
+  .figure {
+      text-align: center;
+  }
+  
+  .figure img {
+      display: block;
+      margin: 3pt auto;
+      max-width: 100%;
   }
   </style>
 </head>
@@ -131,19 +145,12 @@
 <div class="col">
 <h1 id="avatar-feature">AVATAR FEATURE</h1>
 <h2 id="avatar-about">Avatar About</h2>
-<p>The avatar feature allows the player to pick an avatar and it will remain on the game board as the player plays the word game. As soon as the game is loaded, an avatar will appear at the center of the unlocked tiles. There is now an options menu that allows the player to change the avatar that is currently on the board. As the player connects and deletes the glyphs they have selected, the avatar will follow along the path. Once a word is completed, the avatar does a little jump animation at the end.</p>
+<p>The avatar feature allows the player to pick an avatar at the start of the game and will remain on the game board as the player plays the word game. As soon as the game is loaded, an avatar menu will be presented in the center of the web page containing three avatar choices. After the player chooses an avatar, the menu disappears and the avatar will appear at the center of the unlocked tiles. As the player connects and deletes the glyphs they have selected, the avatar will follow along the path. The player can also hover their mouse over the avatar to make it disappear to see the tiles behind it. Once a word is completed, the avatar does a little jump animation at the end.</p>
 <h2 id="why-did-we-create-an-avatar-feature">Why did we create an avatar feature?</h2>
 <p>We wanted to create this feature so that players can be more engaged with the game. An avatar could give a player a sense of connection to the game by seeing a character on the game board. We are also hoping this feature lies the foundation for future characters in the game as well!</p>
 <figure>
-<img src="avatar_feature.gif" alt="" /><figcaption>Avatar On the Board</figcaption>
+<img src="url" alt="" /><figcaption>alt</figcaption>
 </figure>
-<p>▴ The avatar follows the glyphs as the player swipes and plays an animation once the word is completed.</p>
-<figure>
-<img src="av_menu.gif" alt="" /><figcaption>Options Menu</figcaption>
-</figure>
-<p>▴ The player has the option to change the random avatar that is placed on the center of the board through the options menu.</p>
-<h2 id="challenges">Challenges</h2>
-<p>A challenge I faced when designing and animating the avatar was learning the SVG format and how to animate for the first time. It took a while to figure how to convert between different files and to finally get it working and presenting on the game. Another challenge was understanding how HTML elements and event handlers work on a web page to accurately place our avatar on the game board.</p>
 <h3 id="future-work-on-avatars">Future Work on Avatars</h3>
 <p>We hope that in the future the avatar feature will be modified such that players will be able to provide their own avatar drawing and animation or otherwise customize their avatar. This also provides the foundation for the possibility of non-player characters (NPCs) that could appear when playing the game as well as a stronger sense of player identity in a word game.</p>
 </div>

@@ -38,14 +38,16 @@ This summer we added features to the Words game over the course of two
 two-week [development
 “sprints."](https://searchsoftwarequality.techtarget.com/definition/Scrum-sprint)
 
+::: {.figure}
 ![A screenshot of the game, showing the hexagonal tiles that make
 up the game board, each containing a single letter. A path of
-tiles containing the word "BEWARE" is highlighted.](TODO)
+tiles containing the word "BEWARE" is highlighted.](gameplay.png)\ 
+:::
 
 The screenshot above shows what the game board looks like, and you
 can play the game in a web browser (unfortunately it is not
 working on mobile at the moment) at:
-[https://solsword.github.io/words](https://solsword.github.io/words)
+[https://cs.wellesley.edu/~expressive/words](https://cs.wellesley.edu/~expressive/words)
 
 In our first sprint, we added a quiz mode that uses a custom
 word list to create a board, as well as a "backpack" menu that
