@@ -28,6 +28,7 @@ The glyphs menu feature allows the user to complete words using a menu of letter
 The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging their mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid. 
 
 The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word "Mean".   
+
 :::: {.quiz_image_grid}
 ![Above is a screenshot of the "glyphs menu" HTML page shows the letters M and E selected from the grid ](GM01.JPG)
 ![The letter "A" was selected from the Glyphs Menu and is part of the word being matched](GM02.JPG)
