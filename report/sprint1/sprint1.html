@@ -135,9 +135,18 @@
 <p>The glyphs menu feature allows the user to complete words using a menu of letters in addition to the letters that are on the board. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs an extra letter to do so, this feature would be useful. The user can simply stop dragging their mouse on the grid, press on the needed glyph from the menu, and then start dragging their mouse on the grid again to form a word that includes letters from the board plus a letter from the menu.</p>
 <h3 id="about-glyphs-menu">About Glyphs Menu</h3>
 <p>The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging their mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid.</p>
-<p>The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word “Mean”.</p>
-<div class="quiz_image_grid">
-<p><img src="GM01.JPG" alt="Above is a screenshot of the “glyphs menu” HTML page shows the letters M and E selected from the grid" /> <img src="GM02.JPG" alt="The letter “A” was selected from the Glyphs Menu and is part of the word being matched" /> <img src="GM03.JPG" alt="We return back to the grid and the letter “N” is selected from the grid" /> <img src="GM04.JPG" alt="The word “Mean” is completed and the letters “MEN” are locked on the grid" /></p>
+<p>The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word “MEAN.”</p>
+<div class="figure">
+<p><img src="GM01.JPG" alt="A screenshot of the “glyphs menu” HTML page shows the letters M and E selected from the grid" />  First, the player selects some letters from the grid (an ‘M’ and an ‘E’ in this case, which you can see at the bottom of the screen).</p>
+</div>
+<div class="figure">
+<p><img src="GM02.JPG" alt="The letter “A” was selected from the Glyphs Menu and is part of the word being matched" />  Next, the player can select a letter from the glyphs menu on the right (here an ‘A’ has been added to the word being built).</p>
+</div>
+<div class="figure">
+<p><img src="GM03.JPG" alt="We return back to the grid and the letter “N” is selected from the grid" />  Subsequent letters from the grid may be selected. They have to be adjacent to the most recent grid-position used. Here an ‘N’ has been added from the grid.</p>
+</div>
+<div class="figure">
+<p><img src="GM04.JPG" alt="The word “Mean” is completed and the letters “MEN” are unlocked on the grid" />  The entire word ‘MEAN’ has been selected, and the letters that were on the grid are now unlocked.</p>
 </div>
 <h3 id="creating-the-glyphs-menu">Creating the Glyphs Menu</h3>
 <p>To make the glyphs menu, our group had to make a “backpack” menu that consists of five glyphs. The glyphs in the “backpack” are clickable and once selected, the glyphs will be remembered (returned). On the backend, we also had to allow the user to choose words from an places other than the grid itself. Originally, the code stored the player’s selection as an array of positions on the grid. To make the glyphs menu, we allowed this array to contain special entries indicating positions within the glyphs menu instead of positions on the board. Other code, such as the code that highlights the selected glyphs, had to be changed to allow for this. The new code stores the index of a letter within the menu, and then that letter is used to form part of the word being constructed.</p>

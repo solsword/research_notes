@@ -27,14 +27,32 @@ The glyphs menu feature allows the user to complete words using a menu of letter
 
 The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging their mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid. 
 
-The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word "Mean".   
+The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word "MEAN."   
 
-:::: {.quiz_image_grid}
-![Above is a screenshot of the "glyphs menu" HTML page shows the letters M and E selected from the grid ](GM01.JPG)
-![The letter "A" was selected from the Glyphs Menu and is part of the word being matched](GM02.JPG)
-![We return back to the grid and the letter "N" is selected from the grid](GM03.JPG)
-![The word "Mean" is completed and the letters "MEN" are locked on the grid](GM04.JPG)
-::::
+::: {.figure}
+![A screenshot of the "glyphs menu" HTML page shows the letters M and E selected from the grid](GM01.JPG)\ 
+First, the player selects some letters from the grid (an 'M' and an 'E'
+in this case, which you can see at the bottom of the screen).
+:::
+
+::: {.figure}
+![The letter "A" was selected from the Glyphs Menu and is part of the word being matched](GM02.JPG)\ 
+Next, the player can select a letter from the glyphs menu on the right
+(here an 'A' has been added to the word being built).
+:::
+
+::: {.figure}
+![We return back to the grid and the letter "N" is selected from the grid](GM03.JPG)\ 
+Subsequent letters from the grid may be selected. They have to be
+adjacent to the most recent grid-position used. Here an 'N' has been
+added from the grid.
+:::
+
+::: {.figure}
+![The word "Mean" is completed and the letters "MEN" are unlocked on the grid](GM04.JPG)\ 
+The entire word 'MEAN' has been selected, and the letters that were on
+the grid are now unlocked.
+:::
 
 ### Creating the Glyphs Menu
 
