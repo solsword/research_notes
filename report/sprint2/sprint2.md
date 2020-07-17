@@ -32,8 +32,8 @@ The word the user typed in the text box is saved when the user clicks OK. The cu
 We wanted to create this feature so that the user can get help if they get stuck searching for a specific word, or for part of a word. This feature could be particularly useful in quiz mode to look for a word from the custom list of words, although without restrictions, it may make things too easy. With limitations, the feature could act as a reward for the user.
 
 ::: {.figure}
-![Hint: PEA](hint.gif)
-The animation above shows the how the hint feature works when the user types in the word ‘pea’.
+![A demonstration of the Word game with the 'Hint Button' to the right of the view. The user enters the word 'pea' and immediately, a green animation points to show there are two matches in the current screen.](hint.gif)
+The gif above shows a demo of what the user would expect when they are in the home view and type 'pea' You can try yourself at: [https://cs.wellesley.edu/~expressive/words](https://cs.wellesley.edu/~expressive/words)
 :::
 
 ### Challenges
@@ -61,12 +61,12 @@ The avatar feature allows the player to pick an image to represent them as the p
 We wanted to create this feature so that players can be more engaged with the game. An avatar could give a player a sense of connection to the game by seeing a character that represents them on the game board. We are also hoping this feature lays the foundation for other characters in the game as well!
 
 ::: {.figure}
-![Avatar On the Board](avatar_feature.gif)\ 
+![Avatar On the Board](avatar_feature.gif)\
 The avatar follows the glyphs as the player swipes and plays an animation once the word is completed.
 :::
 
 ::: {.figure}
-![Options Menu](av_menu.gif)\ 
+![Options Menu](av_menu.gif)\
 The player has the option to change the random avatar that is placed on the center of the board through the options menu.
 :::
 
