@@ -51,7 +51,7 @@ As the game develops, the Glyphs menu could be made mutable. It should gave the 
 
 ## QUIZ MODE
 
-If you would like to use this feature, we have a game initialized with a demo word list linked <a href="https://solsword.github.io/words/index.html#mode=quiz,words=science`definition%25201~computer`definition%25202~coding`definition%25203~html`definition%25204~css`definition%25205~javascript`definition%25206,domain=English">here</a>. You can also upload your own file into the quiz mode at this link: <a href="https://solsword.github.io/words/start_quiz.html">Start Quiz</a>.
+If you would like to use this feature, we have a game initialized with a demo word list linked <a href="https://cs.wellesley.edu/~expressive/words/index.html#mode=quiz,words=computer`definition%25201~science`definition%25202~coding`definition%25203~html`definition%25204~css`definition%25205~javascript`definition%25206,domain=English">here</a>. You can also upload your own file into the quiz mode at this link: <a href="https://cs.wellesley.edu/~expressive/words/start_quiz.html">Start Quiz</a>.
 
 :::: {.quiz_image_grid}
 ![Above is a screenshot of the "Start Quiz" HTML page. Here, a user can see what format their text needs to be in before selecting their file and the domain it falls under.](start_quiz.JPG)
@@ -77,28 +77,31 @@ Users can also find other words that are randomly created as they play, but they
 After finding all of the words, the user can open the "Quests" menu and click the check next to the quest that shows the quest is completed.
 Then, a dialog box appears to ask the user if they would like to start a new game or scramble the words of the current game to play again.
 Creating a new game will take the user back to the "Start Quiz" page.
-Choosing to scramble the words again changes the randomized seed used to create the game. 
+Choosing to scramble the words again changes the randomized seed (see in paragraph below) used to create the game. 
 
 Seeds are related to how the game is randomized.
 Words is dependent on another code library built by Peter Mawhorter called "anarchy."
-The point of that library is to create a way for randomized decisions to happen.
-The process that computers use to generate random numbers is actually mathematically based, so they are not as random as they appear. 
+The library contains algorithms to make pseudo-random decisions.
+The process that computers use to generate random numbers is actually mathematically based, so they are not as random as they appear (which is why they are called pseudo-random instead of random). 
 Each seed describes the pattern used to generate the random numbers.
-That is why each time you play the game with the same seed and same set of words, they will end up in the same place.
+For example, a seed of 3 might generate the random numbers 1, 4, 5, 9, 2, 6, etc. in that order while a seed of 2 might generate the random numbers 7, 1, 8, 2, etc. in that order.
+That is why each time you play the game with the same seed and same set of words, the board will look the same.
  
 ### Challenges
 
 One of the first challenges we ran into was figuring out whether to capitalize letters. 
-Not every language has a sense of "uppercase" and "lowercase" letters like there is in English. 
-We had to create a function that determined whether the applicable domain had letters (or glyphs) that could be capitalized, and if so, we had to develop the functionality to capitalize all the letters in the user's uploaded word list.
+Not every language has uppercase and lowercase letters like there is in English. 
+We created a function that determined whether the applicable domain had letters (or glyphs) that could be capitalized.
+If they were case-sensitive, we would capitalize all the letters in the user's uploaded word list.
 
 We also found that some words from our uploaded word list were not recognized as valid words by the program.
-To  fix this problem, we had to redefine what it meant for a word to be considered valid.
-Originally, Words determined whether a word was valid based on whether or not it was in one of the larger word lists (domains) that make up the game. 
-We had to also allow for the case in which a word was not in a domain but was given to Words in the user's custom word list.
+Originally, Words determined whether a word was valid based on whether or not it was in one of the larger word lists that make up the game. 
+However, the words a user uploaded might not always be in the given word lists already. 
+Therefore, we had to also allow for the case in which a word was in the user's custom word list but not in one of the larger word lists.
+To  fix this problem, we redefined how the game validated words to include words from the custom word list.
 
 Another challenge that our group encountered was how to encode the words and definitions together. 
-We ultimately decided on using a URL, but that might need to be changed later.
+We ultimately decided on using a URL, but that will probably need to be changed later.
 A URL has a set maximum length which might cause trouble for larger word lists.
 If a list only had words, someone could upload more than 200 words of average length into the game.
 However, once definitions are also added into the mix, it gets easier to reach the maximum length limit of a URL.
@@ -108,9 +111,8 @@ We hope that groups in the future can find a viable solution to this problem.
 ### Future Work
 
 As a word finding game that uses multiple languages, Words has the capability to be used in language pedagogy.
-By using definitions in quiz mode later, Words could have applications in the classroom as a way to review vocabulary.
+By using definitions in quiz mode, Words could have applications in the classroom as a way to review vocabulary.
 Right now, players can at least practice finding and spelling words, but hopefully in the future, they can also define words for learning purposes.
-With the current capabilities of the game, teachers can possibly send their students a link to a preset game with the given list of words that they need to review which can be useful in a classroom setting.
 
 :::
 
