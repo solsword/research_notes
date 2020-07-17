@@ -25,23 +25,24 @@ The glyphs menu feature allows the user to complete words using a menu of letter
 
 ### About Glyphs Menu
 
-The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging their mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid.   
-The screenshots below show how a letter from the menu on the left can be used to add letters as part of a word being matched.
+The Glyphs Menu feature allows the user to complete words using a menu of letters available to them. On the left of the screen is a menu with five letters in it, if the user is struggling to complete a word and needs one more letter to do so, this feature would be useful for them. The user can simply stop dragging their mouse on the grid and can press on the needed glyph from the menu, then they can continue dragging their mouse on the grid. 
 
+The screenshots below show how a letter from the menu on the left can be used to add letters as part of the word "Mean".   
 :::: {.quiz_image_grid}
-![Above is a screenshot of the "glyphs menu" HTML page. ](GM01.JPG)
-!["Glyphs menu" HTML page, before choosing a glyph from the glyphs menu ](GM02.JPG)
-!["Glyphs menu" HTML page, after choosing a glyph from the glyphs menu](GM03.JPG)
-![Above is a screenshot of the "glyphs menu" HTML page. It displays the words found in the game](GM04.JPG)
+![Above is a screenshot of the "glyphs menu" HTML page shows the letters M and E selected from the grid ](GM01.JPG)
+![The letter "A" was selected from the Glyphs Menu and is part of the word being matched](GM02.JPG)
+![We return back to the grid and the letter "N" is selected from the grid](GM03.JPG)
+![The word "Mean" is completed and the letters "MEN" are locked on the grid](GM04.JPG)
 ::::
 
 ### Creating the Glyphs Menu
 
-To make the glyphs menu, our group had to make a button menu and save the glyph or letter that was pressed. We also had to allow the user to choose words from an places other than the grid itself. Originally, the code stored the player's selection as an array of positions on the grid. To make the glyphs menu, we allowed this array to contain special entries indicating positions within the glyphs menu instead of positions on the board. Other code, such as the code that highlights the selected glyphs, had to be changed to allow for this. The new code stores the index of a letter within the menu, and then that letter is used to form part of the word being constructed.
+To make the glyphs menu, our group had to make a "backpack" menu that consists of five glyphs. The glyphs in the "backpack" are clickable and once selected, the glyphs will be remembered (returned). 
+On the backend, we also had to allow the user to choose words from an places other than the grid itself. Originally, the code stored the player's selection as an array of positions on the grid. To make the glyphs menu, we allowed this array to contain special entries indicating positions within the glyphs menu instead of positions on the board. Other code, such as the code that highlights the selected glyphs, had to be changed to allow for this. The new code stores the index of a letter within the menu, and then that letter is used to form part of the word being constructed.
 
 ### Challenges
 
-The game is designed to be played in many different languages. One of the biggest questions we were facing was how to make it more accessible in many different languages. Another challenge we faced was working with a large amount of pre-existing code. Instead of simply building our feature as a stand-alone thing, we had to fit it into the other systems of the game that were already in place.
+Since originally, the Word Game, allowed only used letters from the grid, we had to modify the existing code to allow selection of glyphs from the backpack array in completing a word. Modifying the existing code was complicated as it could introduce new bugs and problems in our code. Another challenge we faced was working with a large amount of pre-existing code. Instead of simply building our feature as a stand-alone thing, we had to fit it into the other systems of the game that were already in place.
 
 
 ### Future Work
