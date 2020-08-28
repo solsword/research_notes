@@ -4,6 +4,8 @@ Shared public repository for research notes, readings, and similar material.
 
 ## Summer 2019
 
+[Our Poster on Colonialism in Minecraft](posters/combined/poster.html)
+
 ### Pages
 
 * [Readings](readings/)
